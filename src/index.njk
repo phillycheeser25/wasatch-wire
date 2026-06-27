@@ -3,7 +3,11 @@ layout: base.njk
 navActive: home
 ---
 
-{% set featuredArticle = collections.articles | first %}
+{% set featuredArticle = null %}
+{% for a in collections.articles %}
+  {% if a.data.featured and not featuredArticle %}{% set featuredArticle = a %}{% endif %}
+{% endfor %}
+{% if not featuredArticle %}{% set featuredArticle = collections.articles | first %}{% endif %}
 {% set recentArticles = collections.articles | limit(6) %}
 
 <div class="container">
@@ -24,7 +28,7 @@ navActive: home
         {% endif %}
 
         <h2 class="hero-headline">
-          <a href="{{ featuredArticle.url }}" style="color:inherit;">{{ featuredArticle.data.title }}</a>
+          <a href="{{ featuredArticle.url | url }}" style="color:inherit;">{{ featuredArticle.data.title }}</a>
         </h2>
         {% if featuredArticle.data.deck %}
         <p class="hero-deck">{{ featuredArticle.data.deck }}</p>

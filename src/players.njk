@@ -1,15 +1,158 @@
 ---
 layout: base.njk
-title: Players & Awards
+title: Players & Rosters
 navActive: players
 ---
 <div class="container">
   <div class="page-header">
-    <h1 class="page-title">Players & Awards</h1>
-    <div class="page-subtitle">Season {{ site.season }} stat leaders, award watches, and All-Big 12 tracker</div>
+    <h1 class="page-title">Rosters</h1>
+    <div class="page-subtitle">Season {{ site.season }} · Utah Utes &amp; BYU Cougars</div>
   </div>
 
-  <div style="color:var(--text-muted); font-size:14px; padding:24px 0;">
-    Player stats and award candidates will appear here as the season progresses.
+  <style>
+    .roster-tabs { display: flex; gap: 0; margin-bottom: 24px; border-bottom: 2px solid var(--border); }
+    .roster-tab { padding: 10px 20px; font-size: 13px; font-weight: 600; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent; margin-bottom: -2px; transition: all .15s; text-transform: uppercase; letter-spacing: .05em; background: none; border-top: none; border-left: none; border-right: none; }
+    .roster-tab.active-utah { color: #CC0000; border-bottom: 2px solid #CC0000; margin-bottom: -2px; }
+    .roster-tab.active-byu  { color: #002E5D; border-bottom: 2px solid #002E5D; margin-bottom: -2px; }
+    .roster-tab:hover { color: var(--text); }
+    .roster-panel { display: none; }
+    .roster-panel.active { display: block; }
+    .pos-group { margin-bottom: 28px; }
+    .pos-group-label { font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--text-muted); padding: 6px 0; border-bottom: 1px solid var(--border); margin-bottom: 0; }
+    .roster-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .roster-table th { text-align: left; padding: 6px 8px; font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: .05em; border-bottom: 1px solid var(--border); }
+    .roster-table td { padding: 7px 8px; border-bottom: 1px solid var(--border); color: var(--text); }
+    .roster-table tr:last-child td { border-bottom: none; }
+    .roster-table .col-num  { color: var(--text-muted); width: 36px; }
+    .roster-table .col-name { font-weight: 600; }
+    .roster-table .col-stat { color: var(--text-muted); text-align: center; }
+    .roster-note { font-size: 12px; color: var(--text-muted); margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
+    @media (max-width: 640px) {
+      .col-ht, .col-wt, .col-home { display: none; }
+    }
+  </style>
+
+  <div class="roster-tabs">
+    <button class="roster-tab active-utah" id="tab-utah" onclick="showRoster('utah')">&#9;&#9;Utah Utes</button>
+    <button class="roster-tab" id="tab-byu" onclick="showRoster('byu')">&#9;&#9;BYU Cougars</button>
   </div>
+
+  {%- set posGroups = [
+    { label: "Quarterbacks",      pos: ["QB"] },
+    { label: "Running Backs",     pos: ["RB"] },
+    { label: "Wide Receivers",    pos: ["WR"] },
+    { label: "Tight Ends",        pos: ["TE"] },
+    { label: "Offensive Line",    pos: ["OT","OG","OL","C"] },
+    { label: "Defensive Ends",    pos: ["DE"] },
+    { label: "Defensive Tackles", pos: ["DT"] },
+    { label: "Linebackers",       pos: ["LB"] },
+    { label: "Cornerbacks",       pos: ["CB"] },
+    { label: "Safeties",          pos: ["S"] },
+    { label: "Special Teams",     pos: ["K","P","LS"] }
+  ] -%}
+
+  {# ─── UTAH ─── #}
+  <div class="roster-panel active" id="panel-utah">
+    <p style="font-size:13px; color:var(--text-muted); margin-bottom:20px;">
+      Head Coach: <strong>Morgan Scalley</strong> &nbsp;·&nbsp; Big 12 &nbsp;·&nbsp; Rice-Eccles Stadium
+    </p>
+    {% for group in posGroups %}
+      {% set gp = roster_utah.players | byPos(group.pos) %}
+      {% if gp | length > 0 %}
+      <div class="pos-group">
+        <div class="pos-group-label">{{ group.label }}</div>
+        <table class="roster-table">
+          <thead><tr>
+            <th class="col-num">#</th>
+            <th class="col-name">Name</th>
+            <th>Pos</th><th>Cl</th>
+            <th class="col-ht">Ht</th>
+            <th class="col-wt">Wt</th>
+            <th class="col-home">Hometown</th>
+            <th class="col-stat">G</th>
+            <th class="col-stat">Att</th>
+            <th class="col-stat">Yds</th>
+            <th class="col-stat">TD</th>
+          </tr></thead>
+          <tbody>
+            {% for p in gp %}
+            <tr>
+              <td class="col-num">{{ p.number }}</td>
+              <td class="col-name">{{ p.name }}</td>
+              <td>{{ p.pos }}</td>
+              <td>{{ p.class }}</td>
+              <td class="col-ht">{{ p.height }}</td>
+              <td class="col-wt">{{ p.weight }}</td>
+              <td class="col-home">{{ p.hometown }}</td>
+              <td class="col-stat">—</td>
+              <td class="col-stat">—</td>
+              <td class="col-stat">—</td>
+              <td class="col-stat">—</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% endif %}
+    {% endfor %}
+    <p class="roster-note">Stats populate as the season progresses. Source: Utah Athletics / Ourlads ({{ roster_utah.season }}).</p>
+  </div>
+
+  {# ─── BYU ─── #}
+  <div class="roster-panel" id="panel-byu">
+    <p style="font-size:13px; color:var(--text-muted); margin-bottom:20px;">
+      Head Coach: <strong>Kalani Sitake</strong> &nbsp;·&nbsp; Big 12 &nbsp;·&nbsp; LaVell Edwards Stadium
+    </p>
+    {% for group in posGroups %}
+      {% set gp = roster_byu.players | byPos(group.pos) %}
+      {% if gp | length > 0 %}
+      <div class="pos-group">
+        <div class="pos-group-label">{{ group.label }}</div>
+        <table class="roster-table">
+          <thead><tr>
+            <th class="col-num">#</th>
+            <th class="col-name">Name</th>
+            <th>Pos</th><th>Cl</th>
+            <th class="col-ht">Ht</th>
+            <th class="col-wt">Wt</th>
+            <th class="col-home">Hometown</th>
+            <th class="col-stat">G</th>
+            <th class="col-stat">Att</th>
+            <th class="col-stat">Yds</th>
+            <th class="col-stat">TD</th>
+          </tr></thead>
+          <tbody>
+            {% for p in gp %}
+            <tr>
+              <td class="col-num">{{ p.number }}</td>
+              <td class="col-name">{{ p.name }}</td>
+              <td>{{ p.pos }}</td>
+              <td>{{ p.class }}</td>
+              <td class="col-ht">{{ p.height }}</td>
+              <td class="col-wt">{{ p.weight }}</td>
+              <td class="col-home">{{ p.hometown }}</td>
+              <td class="col-stat">—</td>
+              <td class="col-stat">—</td>
+              <td class="col-stat">—</td>
+              <td class="col-stat">—</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% endif %}
+    {% endfor %}
+    <p class="roster-note">Stats populate as the season progresses. Source: BYU Athletics / Ourlads ({{ roster_byu.season }}).</p>
+  </div>
+
 </div>
+
+<script>
+function showRoster(team) {
+  document.querySelectorAll('.roster-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('panel-' + team).classList.add('active');
+  var tabs = document.querySelectorAll('.roster-tab');
+  tabs.forEach(t => { t.classList.remove('active-utah'); t.classList.remove('active-byu'); });
+  document.getElementById('tab-' + team).classList.add('active-' + team);
+}
+</script>

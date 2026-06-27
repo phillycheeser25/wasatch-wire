@@ -19,6 +19,11 @@ module.exports = function(eleventyConfig) {
     return arr.slice(0, n);
   });
 
+  eleventyConfig.addFilter("byPos", function(players, positions) {
+    if (!players) return [];
+    return players.filter(p => positions.includes(p.pos));
+  });
+
   return {
     pathPrefix: "/wasatch-wire/",
     dir: {
