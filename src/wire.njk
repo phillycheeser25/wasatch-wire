@@ -24,7 +24,7 @@ navActive: wire
           {{ article.data.category or "Wire" }}{% if article.data.week %} · Week {{ article.data.week }}{% endif %}
         </div>
         <div class="article-headline">
-          <a href="{{ article.url }}">{{ article.data.title }}</a>
+          <a href="{{ article.url | url }}">{{ article.data.title }}</a>
         </div>
         {% if article.data.deck %}
         <div class="article-deck">{{ article.data.deck }}</div>

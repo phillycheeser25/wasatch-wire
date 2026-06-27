@@ -22,7 +22,7 @@ navActive: tabloids
       <div class="wire-article-info">
         <div class="article-tag tabloids">{{ article.data.category or "Tabloids" }}</div>
         <div class="article-headline">
-          <a href="{{ article.url }}">{{ article.data.title }}</a>
+          <a href="{{ article.url | url }}">{{ article.data.title }}</a>
         </div>
         {% if article.data.deck %}
         <div class="article-deck">{{ article.data.deck }}</div>
