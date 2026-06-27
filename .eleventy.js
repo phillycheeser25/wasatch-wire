@@ -20,6 +20,7 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/wasatch-wire/",
     dir: {
       input: "src",
       output: "_site",

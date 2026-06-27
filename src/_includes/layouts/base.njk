@@ -5,21 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ description or site.tagline }}">
   <title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
 </head>
 <body>
 
   <nav class="site-nav">
-    <a href="/" class="site-logo">Wasatch <span>Wire</span></a>
+    <a href="{{ '/' | url }}" class="site-logo">Wasatch <span>Wire</span></a>
     <ul class="nav-links">
-      <li><a href="/" {% if navActive == 'home' %}class="active"{% endif %}>Home</a></li>
-      <li><a href="/wire/" {% if navActive == 'wire' %}class="active"{% endif %}>Wire</a></li>
-      <li><a href="/scores/" {% if navActive == 'scores' %}class="active"{% endif %}>Scores</a></li>
-      <li><a href="/standings/" {% if navActive == 'standings' %}class="active"{% endif %}>Standings</a></li>
-      <li><a href="/rankings/" {% if navActive == 'rankings' %}class="active"{% endif %}>Rankings</a></li>
-      <li><a href="/players/" {% if navActive == 'players' %}class="active"{% endif %}>Players</a></li>
-      <li><a href="/holy-war/" {% if navActive == 'holywar' %}class="active"{% endif %}>Holy War</a></li>
-      <li><a href="/tabloids/" {% if navActive == 'tabloids' %}class="active"{% endif %}>Tabloids</a></li>
+      <li><a href="{{ '/' | url }}" {% if navActive == 'home' %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ '/wire/' | url }}" {% if navActive == 'wire' %}class="active"{% endif %}>Wire</a></li>
+      <li><a href="{{ '/scores/' | url }}" {% if navActive == 'scores' %}class="active"{% endif %}>Scores</a></li>
+      <li><a href="{{ '/standings/' | url }}" {% if navActive == 'standings' %}class="active"{% endif %}>Standings</a></li>
+      <li><a href="{{ '/rankings/' | url }}" {% if navActive == 'rankings' %}class="active"{% endif %}>Rankings</a></li>
+      <li><a href="{{ '/players/' | url }}" {% if navActive == 'players' %}class="active"{% endif %}>Players</a></li>
+      <li><a href="{{ '/holy-war/' | url }}" {% if navActive == 'holywar' %}class="active"{% endif %}>Holy War</a></li>
+      <li><a href="{{ '/tabloids/' | url }}" {% if navActive == 'tabloids' %}class="active"{% endif %}>Tabloids</a></li>
     </ul>
   </nav>
 
