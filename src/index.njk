@@ -60,7 +60,7 @@ navActive: home
           <div>W</div><div>L</div><div>Conf</div>
         </div>
         {% for team in standings.teams %}
-        <div class="standings-row {% if team.name == 'Utah' or team.name == 'BYU' %}highlight{% endif %}">
+        <div class="standings-row {% if team.name == 'Utah' %}highlight-utah{% elif team.name == 'BYU' %}highlight-byu{% endif %}">
           <div class="standings-rank">{{ team.rank }}</div>
           <div class="standings-team">
             <div class="team-dot" style="background:{{ team.color }}"></div>
@@ -79,7 +79,7 @@ navActive: home
           AP poll — our teams
           <a href="/rankings/">Full poll →</a>
         </div>
-        {% for team in rankings.ap %}
+        {% for team in rankings.ourTeams %}
         <div class="ranking-row">
           <div class="ranking-num">{% if team.rank %}{{ team.rank }}{% else %}NR{% endif %}</div>
           <div class="team-dot" style="background:{{ team.color }}; width:8px; height:8px; border-radius:50%; flex-shrink:0;"></div>
@@ -126,7 +126,7 @@ navActive: home
     <div class="section-label">Latest from the wire</div>
     <div class="article-grid">
       {% for article in recentArticles %}
-      <div class="article-card">
+      <div class="article-card {% if article.data.team == 'utah' %}utah-card{% elif article.data.team == 'byu' %}byu-card{% elif article.data.team == 'national' %}national-card{% endif %} {% if 'tabloids' in article.data.tags %}tabloid-card{% endif %}">
         {% if article.data.image %}
         <div class="article-card-img">
           <img src="{{ article.data.image }}" alt="{{ article.data.title }}">
@@ -134,16 +134,18 @@ navActive: home
         {% else %}
         <div class="article-card-img-placeholder">No image</div>
         {% endif %}
-        <div class="article-tag {% if article.data.team %}{{ article.data.team }}{% endif %} {% if 'tabloids' in article.data.tags %}tabloids{% endif %}">
-          {{ article.data.category or "Wire" }}
+        <div class="article-card-body">
+          <div class="article-tag {% if article.data.team %}{{ article.data.team }}{% endif %} {% if 'tabloids' in article.data.tags %}tabloids{% endif %}">
+            {{ article.data.category or "Wire" }}
+          </div>
+          <div class="article-headline">
+            <a href="{{ article.url }}">{{ article.data.title }}</a>
+          </div>
+          {% if article.data.deck %}
+          <div class="article-deck">{{ article.data.deck }}</div>
+          {% endif %}
+          <div class="article-byline">Wasatch Wire · {% if article.data.week %}Week {{ article.data.week }}{% else %}{{ article.data.date | dateDisplay }}{% endif %}</div>
         </div>
-        <div class="article-headline">
-          <a href="{{ article.url }}">{{ article.data.title }}</a>
-        </div>
-        {% if article.data.deck %}
-        <div class="article-deck">{{ article.data.deck }}</div>
-        {% endif %}
-        <div class="article-byline">Wasatch Wire · {% if article.data.week %}Week {{ article.data.week }}{% else %}{{ article.data.date | dateDisplay }}{% endif %}</div>
       </div>
       {% endfor %}
 

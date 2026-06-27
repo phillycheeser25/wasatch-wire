@@ -2,18 +2,20 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --blue: #185FA5;
-  --blue-light: #E6F1FB;
-  --blue-dark: #0C447C;
+  --blue: #1a5faa;
+  --blue-light: #ddeaf8;
+  --blue-dark: #0d3f77;
   --utah: #CC0000;
+  --utah-light: #fdeaea;
   --byu: #002E5D;
-  --text: #1a1a1a;
-  --text-secondary: #555;
+  --byu-light: #dde8f5;
+  --text: #111;
+  --text-secondary: #4a4a4a;
   --text-muted: #888;
-  --border: #e5e5e5;
+  --border: #e2e2e2;
   --border-strong: #ccc;
   --bg: #ffffff;
-  --bg-secondary: #f7f7f5;
+  --bg-secondary: #f6f5f2;
   --radius: 6px;
 }
 
@@ -30,9 +32,15 @@ body {
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
 
+/* ─── Top stripe ─── */
+.top-stripe {
+  height: 4px;
+  background: linear-gradient(90deg, var(--utah) 0%, var(--utah) 50%, var(--byu) 50%, var(--byu) 100%);
+}
+
 /* ─── Nav ─── */
 .site-nav {
-  border-bottom: 1.5px solid var(--border-strong);
+  border-bottom: 1px solid var(--border);
   padding: 0 24px;
   display: flex;
   align-items: center;
@@ -40,16 +48,17 @@ img { max-width: 100%; display: block; }
   top: 0;
   background: var(--bg);
   z-index: 100;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
 
 .site-logo {
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   color: var(--blue);
-  padding: 14px 0;
+  padding: 13px 0;
   margin-right: 32px;
   white-space: nowrap;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.5px;
 }
 
 .site-logo span { color: var(--text); }
@@ -63,13 +72,14 @@ img { max-width: 100%; display: block; }
 
 .nav-links a {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-secondary);
   padding: 16px 12px;
   display: block;
-  border-bottom: 2.5px solid transparent;
+  border-bottom: 3px solid transparent;
   white-space: nowrap;
   transition: color 0.15s;
+  letter-spacing: 0.2px;
 }
 
 .nav-links a:hover { color: var(--text); }
@@ -77,9 +87,9 @@ img { max-width: 100%; display: block; }
 
 /* ─── Ticker ─── */
 .ticker {
-  background: var(--blue);
+  background: #0d1f3c;
   color: #fff;
-  font-size: 11px;
+  font-size: 11.5px;
   font-weight: 500;
   padding: 7px 0;
   overflow: hidden;
@@ -88,19 +98,19 @@ img { max-width: 100%; display: block; }
 
 .ticker-inner {
   display: inline-flex;
-  animation: ticker-scroll 30s linear infinite;
+  animation: ticker-scroll 40s linear infinite;
 }
 
 .ticker-item {
-  padding: 0 32px;
+  padding: 0 28px;
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.ticker-item strong { opacity: 1; }
-.ticker-item span { opacity: 0.75; }
-.ticker-sep { opacity: 0.35; padding: 0 4px; }
+.ticker-item strong { color: #f9c952; }
+.ticker-item span { opacity: 0.85; }
+.ticker-sep { opacity: 0.3; padding: 0 4px; }
 
 @keyframes ticker-scroll {
   0%   { transform: translateX(0); }
@@ -109,15 +119,28 @@ img { max-width: 100%; display: block; }
 
 /* ─── Layout utilities ─── */
 .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
 .section-label {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.9px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--text-muted);
-  margin-bottom: 14px;
-  padding-bottom: 8px;
-  border-bottom: 1.5px solid var(--border-strong);
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-label::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 14px;
+  background: var(--blue);
+  border-radius: 2px;
 }
 
 /* ─── Homepage Hero ─── */
@@ -128,25 +151,29 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-main {
-  padding: 28px 28px 28px 0;
+  padding: 28px 32px 28px 0;
   border-right: 1px solid var(--border);
 }
 
 .hero-tag {
   font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.9px;
+  font-weight: 700;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--blue);
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
+.hero-tag.utah { color: var(--utah); }
+.hero-tag.byu { color: var(--byu); }
+
 .hero-img {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: 8px;
   overflow: hidden;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   aspect-ratio: 16/9;
 }
 
@@ -157,19 +184,19 @@ img { max-width: 100%; display: block; }
   aspect-ratio: 16/9;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--text-muted);
   font-size: 13px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .hero-headline {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.25;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
   margin-bottom: 10px;
   color: var(--text);
 }
@@ -177,7 +204,7 @@ img { max-width: 100%; display: block; }
 .hero-deck {
   font-size: 15px;
   color: var(--text-secondary);
-  line-height: 1.6;
+  line-height: 1.65;
   margin-bottom: 14px;
 }
 
@@ -187,6 +214,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   gap: 6px;
+  font-weight: 500;
 }
 
 .byline-dot {
@@ -211,8 +239,8 @@ img { max-width: 100%; display: block; }
 
 .widget-title {
   font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.9px;
+  font-weight: 700;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--text-muted);
   margin-bottom: 12px;
@@ -224,20 +252,20 @@ img { max-width: 100%; display: block; }
 .widget-title a {
   font-size: 11px;
   color: var(--blue);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0;
   text-transform: none;
 }
 
-/* Standings widget */
+/* Standings */
 .standings-header {
   display: grid;
   grid-template-columns: 20px 1fr 28px 28px 52px;
   gap: 4px;
   font-size: 10px;
   color: var(--text-muted);
-  font-weight: 600;
-  letter-spacing: 0.4px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   padding-bottom: 6px;
   border-bottom: 1px solid var(--border);
@@ -245,7 +273,7 @@ img { max-width: 100%; display: block; }
 }
 
 .standings-header div { text-align: center; }
-.standings-header div:first-child, .standings-header div:nth-child(2) { text-align: left; }
+.standings-header div:nth-child(2) { text-align: left; }
 
 .standings-row {
   display: grid;
@@ -257,27 +285,28 @@ img { max-width: 100%; display: block; }
   font-size: 12px;
 }
 
-.standings-row.highlight { background: var(--blue-light); }
+.standings-row.highlight-utah { background: var(--utah-light); }
+.standings-row.highlight-byu { background: var(--byu-light); }
 
-.standings-rank { font-size: 11px; color: var(--text-muted); }
+.standings-rank { font-size: 11px; color: var(--text-muted); font-weight: 600; }
 
 .standings-team {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 7px;
   font-weight: 500;
 }
 
 .team-dot {
-  width: 8px; height: 8px;
+  width: 9px; height: 9px;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
 .standings-num { text-align: center; font-size: 12px; color: var(--text-secondary); }
-.standings-num.strong { font-weight: 600; color: var(--text); }
+.standings-num.strong { font-weight: 700; color: var(--text); }
 
-/* Rankings widget */
+/* Rankings */
 .ranking-row {
   display: flex;
   align-items: center;
@@ -288,13 +317,12 @@ img { max-width: 100%; display: block; }
 }
 
 .ranking-row:last-child { border-bottom: none; }
-.ranking-num { width: 20px; text-align: right; color: var(--text-muted); font-size: 11px; flex-shrink: 0; }
-.ranking-name { flex: 1; font-weight: 500; }
+.ranking-num { width: 22px; text-align: right; color: var(--text-muted); font-size: 11px; font-weight: 700; flex-shrink: 0; }
+.ranking-name { flex: 1; font-weight: 600; }
 .ranking-record { color: var(--text-muted); font-size: 11px; }
-.ranking-trend { font-size: 10px; font-weight: 500; }
-.trend-up { color: #0F6E56; }
-.trend-down { color: #A32D2D; }
-.trend-new { color: var(--blue); }
+.ranking-trend { font-size: 10px; font-weight: 700; }
+.trend-up { color: #0a7c4f; }
+.trend-down { color: #b91c1c; }
 
 /* Holy War widget */
 .hw-scores {
@@ -305,40 +333,72 @@ img { max-width: 100%; display: block; }
 }
 
 .hw-team { text-align: center; }
-.hw-team-name { font-size: 10px; color: var(--text-muted); margin-bottom: 2px; }
-.hw-team-score { font-size: 26px; font-weight: 600; }
+.hw-team-name { font-size: 10px; color: var(--text-muted); font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 2px; }
+.hw-team-score { font-size: 30px; font-weight: 700; }
 .hw-team-score.utah { color: var(--utah); }
 .hw-team-score.byu { color: var(--byu); }
-.hw-divider { font-size: 12px; color: var(--text-muted); }
-.hw-link { font-size: 11px; color: var(--blue); }
+.hw-divider { font-size: 11px; color: var(--text-muted); text-align: center; line-height: 1.3; }
+.hw-link { font-size: 11px; color: var(--blue); font-weight: 500; }
+
+/* ─── Article Tags ─── */
+.article-tag {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--blue);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.article-tag::before {
+  content: '';
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  flex-shrink: 0;
+}
+
+.article-tag.utah { color: var(--utah); }
+.article-tag.byu { color: var(--byu); }
+.article-tag.tabloids { color: #92400e; }
+.article-tag.national { color: #166534; }
 
 /* ─── Article Grid ─── */
-.home-wire { padding: 28px 0; }
+.home-wire { padding: 28px 0 36px; }
 
 .article-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 24px;
 }
 
-.article-card { display: flex; flex-direction: column; gap: 8px; }
+.article-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.15s;
+}
+
+.article-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
 
 .article-card-img {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
   overflow: hidden;
   aspect-ratio: 16/9;
 }
 
-.article-card-img img { width: 100%; height: 100%; object-fit: cover; }
+.article-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; }
+.article-card:hover .article-card-img img { transform: scale(1.03); }
 
 .article-card-img-placeholder {
   width: 100%;
   aspect-ratio: 16/9;
   background: var(--bg-secondary);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -346,26 +406,22 @@ img { max-width: 100%; display: block; }
   font-size: 11px;
 }
 
-.article-tag {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.7px;
-  text-transform: uppercase;
-  color: var(--blue);
+.article-card-body {
+  padding: 12px 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  flex: 1;
 }
-
-.article-tag.utah { color: var(--utah); }
-.article-tag.byu { color: var(--byu); }
-.article-tag.tabloids { color: #854F0B; }
 
 .article-headline {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.4;
   color: var(--text);
 }
 
-.article-headline:hover { color: var(--blue); }
+.article-headline a:hover { color: var(--blue); }
 
 .article-deck {
   font-size: 13px;
@@ -373,10 +429,20 @@ img { max-width: 100%; display: block; }
   line-height: 1.5;
 }
 
-.article-byline { font-size: 11px; color: var(--text-muted); }
+.article-byline { font-size: 11px; color: var(--text-muted); font-weight: 500; margin-top: auto; }
+
+/* ─── Colored team banners on cards ─── */
+.article-card.utah-card { border-top: 3px solid var(--utah); }
+.article-card.byu-card { border-top: 3px solid var(--byu); }
+.article-card.national-card { border-top: 3px solid #166534; }
+.article-card.tabloid-card { border-top: 3px solid #92400e; }
 
 /* ─── Article Page ─── */
-.article-header { padding: 32px 0 24px; border-bottom: 1px solid var(--border); margin-bottom: 28px; }
+.article-header {
+  padding: 32px 0 24px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 28px;
+}
 
 .article-breadcrumb {
   font-size: 11px;
@@ -385,33 +451,37 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   gap: 6px;
+  font-weight: 500;
 }
 
 .article-breadcrumb a { color: var(--blue); }
 
 .article-category {
   font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.9px;
+  font-weight: 700;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--blue);
   margin-bottom: 12px;
 }
 
+.article-category.utah { color: var(--utah); }
+.article-category.byu { color: var(--byu); }
+
 .article-title {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 1.2;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.15;
   margin-bottom: 14px;
   color: var(--text);
+  letter-spacing: -0.5px;
 }
 
 .article-subtitle {
-  font-size: 17px;
+  font-size: 18px;
   color: var(--text-secondary);
-  line-height: 1.6;
+  line-height: 1.55;
   margin-bottom: 16px;
-  font-style: italic;
 }
 
 .article-meta {
@@ -420,10 +490,11 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   gap: 8px;
+  font-weight: 500;
 }
 
 .article-hero-img {
-  border-radius: var(--radius);
+  border-radius: 8px;
   overflow: hidden;
   margin-bottom: 32px;
 }
@@ -431,53 +502,67 @@ img { max-width: 100%; display: block; }
 .article-hero-img img { width: 100%; }
 
 .article-body {
-  max-width: 680px;
-  font-size: 16px;
-  line-height: 1.8;
+  max-width: 700px;
+  font-size: 16.5px;
+  line-height: 1.85;
   color: var(--text);
 }
 
-.article-body p { margin-bottom: 1.4em; }
-.article-body h2 { font-size: 20px; font-weight: 600; margin: 2em 0 0.6em; }
-.article-body h3 { font-size: 17px; font-weight: 600; margin: 1.6em 0 0.5em; }
-.article-body strong { font-weight: 600; }
+.article-body p { margin-bottom: 1.5em; }
+.article-body h2 { font-size: 21px; font-weight: 700; margin: 2em 0 0.6em; color: var(--text); }
+.article-body h3 { font-size: 17px; font-weight: 700; margin: 1.6em 0 0.5em; }
+.article-body strong { font-weight: 700; }
+
+/* Pull quote */
+.article-body blockquote {
+  border-left: 4px solid var(--blue);
+  margin: 2em 0;
+  padding: 4px 0 4px 20px;
+  font-size: 19px;
+  font-style: italic;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
 
 /* Key Stats Box */
 .key-stats {
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--blue);
+  border-left: 4px solid var(--blue);
   border-radius: var(--radius);
-  padding: 18px 20px;
-  margin: 28px 0;
+  padding: 20px 22px;
+  margin: 32px 0;
 }
+
+.key-stats.utah { border-left-color: var(--utah); }
+.key-stats.byu { border-left-color: var(--byu); }
 
 .key-stats-title {
   font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.9px;
+  font-weight: 700;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--text-muted);
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .key-stats-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 8px 16px;
+  gap: 10px 20px;
 }
 
 .key-stat { display: flex; flex-direction: column; gap: 2px; }
-.key-stat-label { font-size: 11px; color: var(--text-muted); }
-.key-stat-value { font-size: 14px; font-weight: 600; color: var(--text); }
+.key-stat-label { font-size: 11px; color: var(--text-muted); font-weight: 500; }
+.key-stat-value { font-size: 15px; font-weight: 700; color: var(--text); }
 
 /* ─── Wire / List Page ─── */
 .wire-list { padding: 28px 0; }
 
 .wire-article-row {
   display: flex;
-  gap: 16px;
-  padding: 18px 0;
+  gap: 18px;
+  padding: 20px 0;
   border-bottom: 1px solid var(--border);
   align-items: flex-start;
 }
@@ -485,79 +570,124 @@ img { max-width: 100%; display: block; }
 .wire-article-row:last-child { border-bottom: none; }
 
 .wire-article-thumb {
-  width: 120px;
+  width: 130px;
   flex-shrink: 0;
   border-radius: var(--radius);
   overflow: hidden;
   aspect-ratio: 16/9;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
-  font-size: 11px;
 }
 
 .wire-article-thumb img { width: 100%; height: 100%; object-fit: cover; }
 
-.wire-article-info { flex: 1; }
-.wire-article-info .article-headline { font-size: 15px; }
-.wire-article-info .article-deck { margin-top: 4px; }
-.wire-article-info .article-byline { margin-top: 6px; }
+.wire-article-info { flex: 1; display: flex; flex-direction: column; gap: 5px; }
+.wire-article-info .article-headline { font-size: 16px; }
+.wire-article-info .article-deck { font-size: 13px; }
+.wire-article-info .article-byline { margin-top: 4px; }
 
 /* ─── Holy War Page ─── */
 .hw-header {
-  background: linear-gradient(135deg, #CC0000 0%, #8B0000 50%, #002E5D 100%);
+  background: #0d1f3c;
   color: #fff;
-  padding: 40px 0;
-  margin-bottom: 32px;
+  padding: 48px 0;
+  margin-bottom: 36px;
+  position: relative;
+  overflow: hidden;
 }
 
-.hw-header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.hw-header::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 50%; height: 100%;
+  background: rgba(204,0,0,0.25);
+}
 
-.hw-series { text-align: center; }
-.hw-series-label { font-size: 10px; font-weight: 600; letter-spacing: 0.9px; text-transform: uppercase; opacity: 0.7; margin-bottom: 8px; }
-.hw-series-scores { display: flex; align-items: center; gap: 20px; }
+.hw-header::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  width: 50%; height: 100%;
+  background: rgba(0,46,93,0.35);
+}
+
+.hw-header-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hw-series-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hw-series-scores {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: center;
+}
+
 .hw-series-team { text-align: center; }
-.hw-series-team-name { font-size: 13px; font-weight: 500; opacity: 0.85; margin-bottom: 4px; }
-.hw-series-team-score { font-size: 52px; font-weight: 700; line-height: 1; }
-.hw-series-dash { font-size: 28px; opacity: 0.4; }
-.hw-series-subtitle { font-size: 11px; opacity: 0.6; margin-top: 8px; }
+.hw-series-team-name { font-size: 14px; font-weight: 600; opacity: 0.8; margin-bottom: 6px; }
+.hw-series-team-score { font-size: 64px; font-weight: 800; line-height: 1; }
+.hw-series-score-utah { color: #ff4444; }
+.hw-series-score-byu { color: #4488cc; }
+.hw-series-dash { font-size: 32px; opacity: 0.3; }
+.hw-series-subtitle { font-size: 11px; opacity: 0.5; margin-top: 12px; text-align: center; }
 
 .hw-games-table { width: 100%; border-collapse: collapse; font-size: 13px; }
 .hw-games-table th {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.7px;
-  text-transform: uppercase;
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.8px; text-transform: uppercase;
   color: var(--text-muted);
-  padding: 8px 12px;
-  text-align: left;
-  border-bottom: 1.5px solid var(--border-strong);
+  padding: 10px 12px; text-align: left;
+  border-bottom: 2px solid var(--border-strong);
 }
-.hw-games-table td { padding: 12px; border-bottom: 1px solid var(--border); }
+.hw-games-table td { padding: 13px 12px; border-bottom: 1px solid var(--border); }
 .hw-games-table tr:last-child td { border-bottom: none; }
-.hw-games-table .winner { font-weight: 600; }
-.hw-games-table .utah-win td:first-child { border-left: 3px solid var(--utah); }
-.hw-games-table .byu-win td:first-child { border-left: 3px solid var(--byu); }
+.hw-games-table .winner { font-weight: 700; }
+.hw-games-table .utah-win td:first-child { border-left: 4px solid var(--utah); }
+.hw-games-table .byu-win td:first-child { border-left: 4px solid var(--byu); }
 
-/* ─── Scores Page ─── */
-.scores-week { margin-bottom: 32px; }
-.scores-week-label {
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  color: var(--text-muted);
-  margin-bottom: 12px;
-  padding-bottom: 8px;
+/* ─── Page Header ─── */
+.page-header {
+  padding: 28px 0 22px;
   border-bottom: 1px solid var(--border);
+  margin-bottom: 28px;
 }
 
+.page-title { font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
+.page-subtitle { font-size: 14px; color: var(--text-muted); margin-top: 5px; font-weight: 500; }
+
+/* ─── Preseason badge ─── */
+.preseason-badge {
+  display: inline-block;
+  background: #166534;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  border-radius: 3px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+/* ─── Score Card ─── */
 .score-card {
   display: flex;
-  align-items: center;
-  gap: 0;
+  align-items: stretch;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
@@ -575,64 +705,31 @@ img { max-width: 100%; display: block; }
 
 .score-team.featured { background: var(--blue-light); }
 .score-team-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-.score-team-name { flex: 1; font-weight: 500; }
-.score-team-points { font-size: 18px; font-weight: 700; min-width: 32px; text-align: right; }
-.score-divider { width: 1px; background: var(--border); align-self: stretch; }
-.score-meta { padding: 12px 14px; color: var(--text-muted); font-size: 11px; text-align: center; min-width: 80px; }
-
-/* ─── Players Page ─── */
-.players-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-
-.player-card {
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-
-.player-card-header { padding: 14px; background: var(--bg-secondary); border-bottom: 1px solid var(--border); }
-.player-card-name { font-size: 15px; font-weight: 600; }
-.player-card-info { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
-.player-card-stats { padding: 12px 14px; }
-.player-stat-row { display: flex; justify-content: space-between; font-size: 12px; padding: 4px 0; border-bottom: 1px solid var(--border); }
-.player-stat-row:last-child { border-bottom: none; }
-.player-stat-label { color: var(--text-muted); }
-.player-stat-value { font-weight: 600; }
-
-/* ─── Page Header (non-home pages) ─── */
-.page-header {
-  padding: 24px 0 20px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 28px;
-}
-
-.page-title { font-size: 26px; font-weight: 700; }
-.page-subtitle { font-size: 14px; color: var(--text-muted); margin-top: 4px; }
+.score-team-name { flex: 1; font-weight: 600; }
+.score-team-points { font-size: 18px; font-weight: 800; min-width: 32px; text-align: right; }
+.score-divider { width: 1px; background: var(--border); }
+.score-meta { padding: 12px 14px; color: var(--text-muted); font-size: 11px; text-align: center; min-width: 80px; font-weight: 500; }
 
 /* ─── Footer ─── */
 .site-footer {
-  border-top: 1.5px solid var(--border-strong);
+  background: #0d1f3c;
+  color: rgba(255,255,255,0.6);
   padding: 24px;
-  margin-top: 48px;
+  margin-top: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 12px;
-  color: var(--text-muted);
+  font-weight: 500;
 }
 
-.footer-logo { font-size: 14px; font-weight: 600; color: var(--blue); }
-.footer-logo span { color: var(--text); }
+.footer-logo { font-size: 15px; font-weight: 700; color: #fff; }
+.footer-logo span { color: rgba(255,255,255,0.5); }
 
 /* ─── Responsive ─── */
 @media (max-width: 768px) {
   .home-hero { grid-template-columns: 1fr; }
   .hero-main { border-right: none; padding-right: 0; border-bottom: 1px solid var(--border); }
   .article-grid { grid-template-columns: 1fr; }
-  .players-grid { grid-template-columns: 1fr 1fr; }
   .site-nav { overflow-x: auto; }
-  .hw-series-team-score { font-size: 36px; }
 }

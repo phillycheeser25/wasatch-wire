@@ -1,13 +1,21 @@
 {
-  "lastUpdated": "Week 1",
+  "lastUpdated": "Preseason 2026",
   "teams": [
-    { "rank": 1, "name": "Utah", "abbr": "UTAH", "color": "#CC0000", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
-    { "rank": 2, "name": "BYU", "abbr": "BYU", "color": "#002E5D", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
-    { "rank": 3, "name": "Texas", "abbr": "TEX", "color": "#FF6600", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
-    { "rank": 4, "name": "TCU", "abbr": "TCU", "color": "#4D1979", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
-    { "rank": 5, "name": "Arizona", "abbr": "ARIZ", "color": "#AB0520", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
-    { "rank": 6, "name": "Kansas State", "abbr": "KSU", "color": "#512888", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
-    { "rank": 7, "name": "Oklahoma State", "abbr": "OKST", "color": "#FF6600", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
-    { "rank": 8, "name": "Iowa State", "abbr": "ISU", "color": "#C8102E", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 }
+    { "rank": 1,  "name": "Texas Tech",     "abbr": "TTU",  "color": "#CC0000", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 2,  "name": "BYU",            "abbr": "BYU",  "color": "#002E5D", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 3,  "name": "Utah",           "abbr": "UTAH", "color": "#CC0000", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 4,  "name": "Colorado",       "abbr": "CU",   "color": "#CFB87C", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 5,  "name": "Iowa State",     "abbr": "ISU",  "color": "#C8102E", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 6,  "name": "Kansas State",   "abbr": "KSU",  "color": "#512888", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 7,  "name": "Oklahoma State", "abbr": "OKST", "color": "#FF6600", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 8,  "name": "TCU",            "abbr": "TCU",  "color": "#4D1979", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 9,  "name": "Arizona State",  "abbr": "ASU",  "color": "#8C1D40", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 10, "name": "Baylor",         "abbr": "BAY",  "color": "#003015", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 11, "name": "West Virginia",  "abbr": "WVU",  "color": "#002855", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 12, "name": "Cincinnati",     "abbr": "CIN",  "color": "#E00122", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 13, "name": "Houston",        "abbr": "HOU",  "color": "#C8102E", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 14, "name": "Arizona",        "abbr": "ARIZ", "color": "#AB0520", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 15, "name": "UCF",            "abbr": "UCF",  "color": "#FFC904", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 16, "name": "Kansas",         "abbr": "KU",   "color": "#0051A5", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 }
   ]
 }
