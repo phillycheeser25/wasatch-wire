@@ -1,0 +1,64 @@
+---
+layout: base.njk
+title: Holy War
+navActive: holywar
+showTicker: false
+---
+
+<div class="hw-header">
+  <div class="container">
+    <div class="hw-header-inner">
+      <div>
+        <div class="hw-series-label">Holy War — Dynasty Series Record</div>
+        <div class="hw-series-scores">
+          <div class="hw-series-team">
+            <div class="hw-series-team-name">Utah Utes</div>
+            <div class="hw-series-team-score">{{ holywar.utahWins }}</div>
+          </div>
+          <div class="hw-series-dash">—</div>
+          <div class="hw-series-team">
+            <div class="hw-series-team-name">BYU Cougars</div>
+            <div class="hw-series-team-score">{{ holywar.byuWins }}</div>
+          </div>
+        </div>
+        <div class="hw-series-subtitle">Season {{ site.season }} · Big 12 Conference</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  {% if holywar.games | length > 0 %}
+  <div class="section-label">Game-by-game results</div>
+  <table class="hw-games-table">
+    <thead>
+      <tr>
+        <th>Season</th>
+        <th>Week</th>
+        <th>Utah</th>
+        <th>BYU</th>
+        <th>Winner</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for game in holywar.games %}
+      <tr class="{% if game.winner == 'Utah' %}utah-win{% elif game.winner == 'BYU' %}byu-win{% endif %}">
+        <td>Season {{ game.season }}</td>
+        <td>Week {{ game.week }}</td>
+        <td style="{% if game.winner == 'Utah' %}font-weight:600;{% endif %}">{{ game.utahScore }}</td>
+        <td style="{% if game.winner == 'BYU' %}font-weight:600;{% endif %}">{{ game.byuScore }}</td>
+        <td class="winner" style="color:{% if game.winner == 'Utah' %}var(--utah){% else %}var(--byu){% endif %};">{{ game.winner }}</td>
+        <td style="color:var(--text-muted); font-size:12px;">{{ game.notes or "" }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <div style="color:var(--text-muted); font-size:14px; padding:24px 0;">
+    No Holy War games played yet. Season {{ site.season }} awaits.
+  </div>
+  {% endif %}
+
+</div>

@@ -1,0 +1,158 @@
+---
+layout: base.njk
+navActive: home
+---
+
+{% set featuredArticle = collections.articles | first %}
+{% set recentArticles = collections.articles | limit(6) %}
+
+<div class="container">
+
+  {# ─── Hero Split ─── #}
+  <div class="home-hero" style="margin: 0 -24px; padding: 0 24px;">
+    <div class="hero-main" style="padding-left:0;">
+
+      {% if featuredArticle %}
+        <div class="hero-tag">{{ featuredArticle.data.category or "Wire" }} · {% if featuredArticle.data.week %}Week {{ featuredArticle.data.week }}{% else %}{{ featuredArticle.data.date | dateDisplay }}{% endif %}</div>
+
+        {% if featuredArticle.data.image %}
+        <div class="hero-img">
+          <img src="{{ featuredArticle.data.image }}" alt="{{ featuredArticle.data.title }}">
+        </div>
+        {% else %}
+        <div class="hero-img-placeholder">No image yet</div>
+        {% endif %}
+
+        <h2 class="hero-headline">
+          <a href="{{ featuredArticle.url }}" style="color:inherit;">{{ featuredArticle.data.title }}</a>
+        </h2>
+        {% if featuredArticle.data.deck %}
+        <p class="hero-deck">{{ featuredArticle.data.deck }}</p>
+        {% endif %}
+        <div class="hero-byline">
+          Wasatch Wire Staff
+          {% if featuredArticle.data.location %}
+            <div class="byline-dot"></div> {{ featuredArticle.data.location }}
+          {% endif %}
+        </div>
+
+      {% else %}
+        <div class="hero-tag">Wasatch Wire · Season {{ site.season }}</div>
+        <div class="hero-img-placeholder">Season {{ site.season }} coverage begins soon</div>
+        <h2 class="hero-headline">Wasatch Wire is live. Season {{ site.season }} starts now.</h2>
+        <p class="hero-deck">Coverage of Utah Utes and BYU Cougars Big 12 dynasty. Drop screenshots in the inbox and articles go up automatically.</p>
+        <div class="hero-byline">Wasatch Wire Staff</div>
+      {% endif %}
+
+    </div>
+
+    {# ─── Right Rail ─── #}
+    <div class="hero-rail">
+
+      {# Standings #}
+      <div class="widget">
+        <div class="widget-title">
+          Big 12 standings
+          <a href="/standings/">Full table →</a>
+        </div>
+        <div class="standings-header">
+          <div></div><div></div>
+          <div>W</div><div>L</div><div>Conf</div>
+        </div>
+        {% for team in standings.teams %}
+        <div class="standings-row {% if team.name == 'Utah' or team.name == 'BYU' %}highlight{% endif %}">
+          <div class="standings-rank">{{ team.rank }}</div>
+          <div class="standings-team">
+            <div class="team-dot" style="background:{{ team.color }}"></div>
+            {{ team.name }}
+          </div>
+          <div class="standings-num {% if team.name == 'Utah' or team.name == 'BYU' %}strong{% endif %}">{{ team.wins }}</div>
+          <div class="standings-num {% if team.name == 'Utah' or team.name == 'BYU' %}strong{% endif %}">{{ team.losses }}</div>
+          <div class="standings-num {% if team.name == 'Utah' or team.name == 'BYU' %}strong{% endif %}">{{ team.confWins }}–{{ team.confLosses }}</div>
+        </div>
+        {% endfor %}
+      </div>
+
+      {# AP Rankings (our teams only) #}
+      <div class="widget">
+        <div class="widget-title">
+          AP poll — our teams
+          <a href="/rankings/">Full poll →</a>
+        </div>
+        {% for team in rankings.ap %}
+        <div class="ranking-row">
+          <div class="ranking-num">{% if team.rank %}{{ team.rank }}{% else %}NR{% endif %}</div>
+          <div class="team-dot" style="background:{{ team.color }}; width:8px; height:8px; border-radius:50%; flex-shrink:0;"></div>
+          <div class="ranking-name">{{ team.name }}</div>
+          <div class="ranking-record">{{ team.record }}</div>
+          {% if team.trend %}
+            {% if team.trend > 0 %}
+              <div class="ranking-trend trend-up">▲{{ team.trend }}</div>
+            {% elif team.trend < 0 %}
+              <div class="ranking-trend trend-down">▼{{ team.trend | abs }}</div>
+            {% else %}
+              <div class="ranking-trend" style="color:var(--text-muted);">—</div>
+            {% endif %}
+          {% endif %}
+        </div>
+        {% endfor %}
+        {% if not rankings.ap or rankings.ap | length == 0 %}
+        <div style="font-size:12px; color:var(--text-muted); padding:4px 0;">Rankings begin after Week 1.</div>
+        {% endif %}
+      </div>
+
+      {# Holy War #}
+      <div class="widget">
+        <div class="widget-title">Holy War series</div>
+        <div class="hw-scores">
+          <div class="hw-team">
+            <div class="hw-team-name">Utah</div>
+            <div class="hw-team-score utah">{{ holywar.utahWins }}</div>
+          </div>
+          <div class="hw-divider">dynasty record</div>
+          <div class="hw-team">
+            <div class="hw-team-name">BYU</div>
+            <div class="hw-team-score byu">{{ holywar.byuWins }}</div>
+          </div>
+        </div>
+        <a href="/holy-war/" class="hw-link">Full rivalry page →</a>
+      </div>
+
+    </div>
+  </div>
+
+  {# ─── Latest Articles ─── #}
+  <div class="home-wire">
+    <div class="section-label">Latest from the wire</div>
+    <div class="article-grid">
+      {% for article in recentArticles %}
+      <div class="article-card">
+        {% if article.data.image %}
+        <div class="article-card-img">
+          <img src="{{ article.data.image }}" alt="{{ article.data.title }}">
+        </div>
+        {% else %}
+        <div class="article-card-img-placeholder">No image</div>
+        {% endif %}
+        <div class="article-tag {% if article.data.team %}{{ article.data.team }}{% endif %} {% if 'tabloids' in article.data.tags %}tabloids{% endif %}">
+          {{ article.data.category or "Wire" }}
+        </div>
+        <div class="article-headline">
+          <a href="{{ article.url }}">{{ article.data.title }}</a>
+        </div>
+        {% if article.data.deck %}
+        <div class="article-deck">{{ article.data.deck }}</div>
+        {% endif %}
+        <div class="article-byline">Wasatch Wire · {% if article.data.week %}Week {{ article.data.week }}{% else %}{{ article.data.date | dateDisplay }}{% endif %}</div>
+      </div>
+      {% endfor %}
+
+      {% if not recentArticles or recentArticles | length == 0 %}
+      <div style="grid-column: 1/-1; color:var(--text-muted); font-size:14px; padding:24px 0;">
+        No articles yet — drop screenshots in the inbox and we'll get writing.
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+</div>

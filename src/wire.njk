@@ -1,0 +1,39 @@
+---
+layout: base.njk
+title: Wire
+navActive: wire
+---
+<div class="container">
+  <div class="page-header">
+    <h1 class="page-title">The Wire</h1>
+    <div class="page-subtitle">Game recaps, features, and analysis — Season {{ site.season }}</div>
+  </div>
+
+  <div class="wire-list">
+    {% for article in collections.articles %}
+    <div class="wire-article-row">
+      <div class="wire-article-thumb">
+        {% if article.data.image %}
+          <img src="{{ article.data.image }}" alt="{{ article.data.title }}">
+        {% else %}
+          No image
+        {% endif %}
+      </div>
+      <div class="wire-article-info">
+        <div class="article-tag {% if article.data.team %}{{ article.data.team }}{% endif %}">
+          {{ article.data.category or "Wire" }}{% if article.data.week %} · Week {{ article.data.week }}{% endif %}
+        </div>
+        <div class="article-headline">
+          <a href="{{ article.url }}">{{ article.data.title }}</a>
+        </div>
+        {% if article.data.deck %}
+        <div class="article-deck">{{ article.data.deck }}</div>
+        {% endif %}
+        <div class="article-byline">Wasatch Wire · {{ article.data.date | dateDisplay }}</div>
+      </div>
+    </div>
+    {% else %}
+    <div style="color:var(--text-muted); font-size:14px; padding:24px 0;">No articles yet.</div>
+    {% endfor %}
+  </div>
+</div>

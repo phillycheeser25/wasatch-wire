@@ -1,0 +1,12 @@
+{
+  "name": "wasatch-wire",
+  "version": "1.0.0",
+  "description": "Wasatch Wire — NCAA Football 27 Dynasty Coverage",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

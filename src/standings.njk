@@ -1,0 +1,39 @@
+---
+layout: base.njk
+title: Standings
+navActive: standings
+---
+<div class="container">
+  <div class="page-header">
+    <h1 class="page-title">Big 12 Standings</h1>
+    <div class="page-subtitle">Season {{ site.season }} · Updated through {{ standings.lastUpdated }}</div>
+  </div>
+
+  <table style="width:100%; border-collapse:collapse; font-size:14px;">
+    <thead>
+      <tr style="border-bottom:1.5px solid var(--border-strong);">
+        <th style="text-align:left; padding:10px 8px; font-size:11px; font-weight:600; letter-spacing:0.7px; text-transform:uppercase; color:var(--text-muted);">Team</th>
+        <th style="text-align:center; padding:10px 8px; font-size:11px; font-weight:600; letter-spacing:0.7px; text-transform:uppercase; color:var(--text-muted);">W</th>
+        <th style="text-align:center; padding:10px 8px; font-size:11px; font-weight:600; letter-spacing:0.7px; text-transform:uppercase; color:var(--text-muted);">L</th>
+        <th style="text-align:center; padding:10px 8px; font-size:11px; font-weight:600; letter-spacing:0.7px; text-transform:uppercase; color:var(--text-muted);">Conf W</th>
+        <th style="text-align:center; padding:10px 8px; font-size:11px; font-weight:600; letter-spacing:0.7px; text-transform:uppercase; color:var(--text-muted);">Conf L</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for team in standings.teams %}
+      <tr style="border-bottom:1px solid var(--border); {% if team.name == 'Utah' or team.name == 'BYU' %}background:var(--blue-light);{% endif %}">
+        <td style="padding:12px 8px;">
+          <div style="display:flex; align-items:center; gap:10px;">
+            <div class="team-dot" style="background:{{ team.color }}; width:10px; height:10px; border-radius:50%;"></div>
+            <span style="font-weight:{% if team.name == 'Utah' or team.name == 'BYU' %}600{% else %}400{% endif %};">{{ team.name }}</span>
+          </div>
+        </td>
+        <td style="text-align:center; padding:12px 8px; font-weight:{% if team.name == 'Utah' or team.name == 'BYU' %}600{% else %}400{% endif %};">{{ team.wins }}</td>
+        <td style="text-align:center; padding:12px 8px; font-weight:{% if team.name == 'Utah' or team.name == 'BYU' %}600{% else %}400{% endif %};">{{ team.losses }}</td>
+        <td style="text-align:center; padding:12px 8px;">{{ team.confWins }}</td>
+        <td style="text-align:center; padding:12px 8px;">{{ team.confLosses }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

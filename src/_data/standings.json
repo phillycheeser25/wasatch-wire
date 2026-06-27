@@ -1,0 +1,13 @@
+{
+  "lastUpdated": "Week 1",
+  "teams": [
+    { "rank": 1, "name": "Utah", "abbr": "UTAH", "color": "#CC0000", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 2, "name": "BYU", "abbr": "BYU", "color": "#002E5D", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 3, "name": "Texas", "abbr": "TEX", "color": "#FF6600", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 4, "name": "TCU", "abbr": "TCU", "color": "#4D1979", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 5, "name": "Arizona", "abbr": "ARIZ", "color": "#AB0520", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 6, "name": "Kansas State", "abbr": "KSU", "color": "#512888", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 7, "name": "Oklahoma State", "abbr": "OKST", "color": "#FF6600", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 },
+    { "rank": 8, "name": "Iowa State", "abbr": "ISU", "color": "#C8102E", "wins": 0, "losses": 0, "confWins": 0, "confLosses": 0 }
+  ]
+}

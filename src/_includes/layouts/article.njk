@@ -1,0 +1,54 @@
+---
+layout: base.njk
+---
+<div class="container">
+  <article>
+
+    <header class="article-header">
+      <div class="article-breadcrumb">
+        <a href="/">Home</a> ›
+        <a href="/wire/">Wire</a>
+        {% if category %} › {{ category }}{% endif %}
+      </div>
+      <div class="article-category">{{ category or "Wire" }}</div>
+      <h1 class="article-title">{{ title }}</h1>
+      {% if deck %}
+        <p class="article-subtitle">{{ deck }}</p>
+      {% endif %}
+      <div class="article-meta">
+        Wasatch Wire Staff
+        {% if location %}<span class="byline-dot" style="display:inline-block;width:3px;height:3px;border-radius:50%;background:#888;margin:0 2px;vertical-align:middle;"></span> {{ location }}{% endif %}
+        {% if week %}<span class="byline-dot" style="display:inline-block;width:3px;height:3px;border-radius:50%;background:#888;margin:0 2px;vertical-align:middle;"></span> Week {{ week }}{% endif %}
+      </div>
+    </header>
+
+    {% if image %}
+    <div class="article-hero-img">
+      <img src="{{ image }}" alt="{{ title }}">
+    </div>
+    {% endif %}
+
+    <div class="article-body">
+      {{ content | safe }}
+    </div>
+
+    {% if stats %}
+    <div class="key-stats" style="max-width:680px; margin-top:32px;">
+      <div class="key-stats-title">Key Stats</div>
+      <div class="key-stats-grid">
+        {% for stat in stats %}
+        <div class="key-stat">
+          <div class="key-stat-label">{{ stat.label }}</div>
+          <div class="key-stat-value">{{ stat.value }}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+  </article>
+
+  <div style="margin-top:48px; padding-top:24px; border-top:1px solid var(--border);">
+    <a href="/wire/" style="font-size:13px; color:var(--blue);">← Back to the Wire</a>
+  </div>
+</div>

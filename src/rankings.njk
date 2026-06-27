@@ -1,0 +1,35 @@
+---
+layout: base.njk
+title: Rankings
+navActive: rankings
+---
+<div class="container">
+  <div class="page-header">
+    <h1 class="page-title">AP Poll Tracker</h1>
+    <div class="page-subtitle">Season {{ site.season }} · {{ rankings.lastUpdated }}</div>
+  </div>
+
+  <div style="max-width:480px;">
+    {% for team in rankings.ap %}
+    <div style="display:flex; align-items:center; gap:12px; padding:14px 0; border-bottom:1px solid var(--border);">
+      <div style="width:36px; text-align:right; font-size:20px; font-weight:700; color:{% if team.rank %}var(--text){% else %}var(--text-muted){% endif %};">
+        {% if team.rank %}{{ team.rank }}{% else %}NR{% endif %}
+      </div>
+      <div class="team-dot" style="background:{{ team.color }}; width:12px; height:12px; border-radius:50%;"></div>
+      <div style="flex:1; font-size:16px; font-weight:600;">{{ team.name }}</div>
+      <div style="font-size:13px; color:var(--text-muted);">{{ team.record }}</div>
+      {% if team.trend %}
+        {% if team.trend > 0 %}
+          <div class="ranking-trend trend-up" style="font-size:13px; font-weight:600;">▲{{ team.trend }}</div>
+        {% elif team.trend < 0 %}
+          <div class="ranking-trend trend-down" style="font-size:13px; font-weight:600;">▼{{ team.trend | abs }}</div>
+        {% else %}
+          <div style="font-size:13px; color:var(--text-muted);">—</div>
+        {% endif %}
+      {% endif %}
+    </div>
+    {% else %}
+    <div style="color:var(--text-muted); font-size:14px; padding:24px 0;">Rankings will appear here after Week 1.</div>
+    {% endfor %}
+  </div>
+</div>
