@@ -26,6 +26,8 @@ navActive: players
     .roster-table .col-num  { color: var(--text-muted); width: 36px; }
     .roster-table .col-name { font-weight: 600; }
     .roster-table .col-stat { color: var(--text-muted); text-align: center; }
+    .roster-table .col-ovr { font-weight: 700; text-align: center; }
+    .roster-table .col-ovr.ovr-elite { color: #b8860b; }
     .roster-note { font-size: 12px; color: var(--text-muted); margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
     @media (max-width: 640px) {
       .col-ht, .col-wt, .col-home { display: none; }
@@ -66,6 +68,7 @@ navActive: players
             <th class="col-num">#</th>
             <th class="col-name">Name</th>
             <th>Pos</th><th>Cl</th>
+            <th class="col-stat">OVR</th>
             <th class="col-ht">Ht</th>
             <th class="col-wt">Wt</th>
             <th class="col-home">Hometown</th>
@@ -81,6 +84,7 @@ navActive: players
               <td class="col-name">{{ p.name }}</td>
               <td>{{ p.pos }}</td>
               <td>{{ p.class }}</td>
+              <td class="col-ovr{% if p.ovr and p.ovr >= 90 %} ovr-elite{% endif %}">{% if p.ovr %}{{ p.ovr }}{% else %}&mdash;{% endif %}</td>
               <td class="col-ht">{{ p.height }}</td>
               <td class="col-wt">{{ p.weight }}</td>
               <td class="col-home">{{ p.hometown }}</td>
@@ -95,7 +99,7 @@ navActive: players
       </div>
       {% endif %}
     {% endfor %}
-    <p class="roster-note">Stats populate as the season progresses. Source: Utah Athletics / Ourlads ({{ roster_utah.season }}).</p>
+    <p class="roster-note">OVR = EA SPORTS College Football 27 launch rating. Players without a rating (&mdash;) were not in the launch database. Stats populate as the season progresses. Source: Utah Athletics / EA SPORTS ({{ roster_utah.season }}).</p>
   </div>
 
   {# ─── BYU ─── #}
@@ -113,6 +117,7 @@ navActive: players
             <th class="col-num">#</th>
             <th class="col-name">Name</th>
             <th>Pos</th><th>Cl</th>
+            <th class="col-stat">OVR</th>
             <th class="col-ht">Ht</th>
             <th class="col-wt">Wt</th>
             <th class="col-home">Hometown</th>
@@ -128,6 +133,7 @@ navActive: players
               <td class="col-name">{{ p.name }}</td>
               <td>{{ p.pos }}</td>
               <td>{{ p.class }}</td>
+              <td class="col-ovr{% if p.ovr and p.ovr >= 90 %} ovr-elite{% endif %}">{% if p.ovr %}{{ p.ovr }}{% else %}&mdash;{% endif %}</td>
               <td class="col-ht">{{ p.height }}</td>
               <td class="col-wt">{{ p.weight }}</td>
               <td class="col-home">{{ p.hometown }}</td>
@@ -142,7 +148,7 @@ navActive: players
       </div>
       {% endif %}
     {% endfor %}
-    <p class="roster-note">Stats populate as the season progresses. Source: BYU Athletics / Ourlads ({{ roster_byu.season }}).</p>
+    <p class="roster-note">OVR = EA SPORTS College Football 27 launch rating. Players without a rating (&mdash;) were not in the launch database. Stats populate as the season progresses. Source: BYU Athletics / Ourlads ({{ roster_byu.season }}).</p>
   </div>
 
 </div>
