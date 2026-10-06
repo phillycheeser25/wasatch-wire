@@ -1,0 +1,37 @@
+{
+  "players": [
+    {
+      "name": "Bear Bachmeier",
+      "team": "BYU",
+      "pos": "QB",
+      "number": 47,
+      "hometown": "Murrieta, California",
+      "school": "Murrieta Valley → Stanford → BYU",
+      "title": "Football runs in the family",
+      "url": "/articles/bear-bachmeier-spotlight/",
+      "image": "/assets/images/bachmeier.svg"
+    },
+    {
+      "name": "LJ Martin",
+      "team": "BYU",
+      "pos": "RB",
+      "number": 4,
+      "hometown": "El Paso, Texas",
+      "school": "Canutillo → BYU",
+      "title": "The offense starts with four",
+      "url": "/articles/lj-martin-spotlight/",
+      "image": "/assets/images/martin.svg"
+    },
+    {
+      "name": "Devon Dampier",
+      "team": "Utah",
+      "pos": "QB",
+      "number": 4,
+      "hometown": "Phoenix, Arizona",
+      "school": "Saguaro → New Mexico → Utah",
+      "title": "A quarterback with two answers",
+      "url": "/articles/devon-dampier-spotlight/",
+      "image": "/assets/images/dampier.svg"
+    }
+  ]
+}

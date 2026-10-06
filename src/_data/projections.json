@@ -1,0 +1,137 @@
+{
+  "label": "The preseason vibes ballot",
+  "basis": "Editorial opinion · frozen before conference play",
+  "champion": "BYU",
+  "runnerUp": "Texas Tech",
+  "note": "A subjective preseason finishing-order pick, not game standings or a schedule simulation. Projected conference records assume nine league games. Tied records are separated by editorial preference, not a predicted tiebreaker.",
+  "teams": [
+    {
+      "rank": 1,
+      "name": "BYU",
+      "confWins": 8,
+      "confLosses": 1,
+      "color": "#002E5D",
+      "reason": "Martin gives the offense a dependable center of gravity. Bachmeier supplies the upside. Our pick to handle the ordinary Saturdays well enough to survive one extraordinary one."
+    },
+    {
+      "rank": 2,
+      "name": "Texas Tech",
+      "confWins": 7,
+      "confLosses": 2,
+      "color": "#CC0000",
+      "reason": "The obvious challenger: a program that feels built to turn a good drive into a scoring avalanche. Our bet is that the ceiling wins out more often than the volatility costs it."
+    },
+    {
+      "rank": 3,
+      "name": "Utah",
+      "confWins": 7,
+      "confLosses": 2,
+      "color": "#CC0000",
+      "reason": "Dampier gives the Utes a way out when a play breaks down. We see a title-level ceiling, with a November road stretch keeping them just outside the top two."
+    },
+    {
+      "rank": 4,
+      "name": "Kansas State",
+      "confWins": 6,
+      "confLosses": 3,
+      "color": "#512888",
+      "reason": "Trust the steady team in a league full of mood swings. We like the floor, even if the top-end fireworks belong elsewhere."
+    },
+    {
+      "rank": 5,
+      "name": "Arizona State",
+      "confWins": 6,
+      "confLosses": 3,
+      "color": "#8C1D40",
+      "reason": "The dangerous contender nobody wants to catch on its best night. A couple of coin-flip losses keep this pick below the title-game line."
+    },
+    {
+      "rank": 6,
+      "name": "TCU",
+      "confWins": 5,
+      "confLosses": 4,
+      "color": "#4D1979",
+      "reason": "A team we can talk ourselves into beating anyone and losing a game it should own. Five conference wins feels like the middle of that argument."
+    },
+    {
+      "rank": 7,
+      "name": "Iowa State",
+      "confWins": 5,
+      "confLosses": 4,
+      "color": "#C8102E",
+      "reason": "Ames still feels like the place a contender goes to have an uncomfortable Saturday. Our projection gives that edge more credit than star power."
+    },
+    {
+      "rank": 8,
+      "name": "Houston",
+      "confWins": 5,
+      "confLosses": 4,
+      "color": "#C8102E",
+      "reason": "The dynasty poll has Houston at No. 21. We buy a real step forward, but want to see the week-to-week version before picking a title run."
+    },
+    {
+      "rank": 9,
+      "name": "Baylor",
+      "confWins": 4,
+      "confLosses": 5,
+      "color": "#003015",
+      "reason": "Enough offensive possibility to spoil a season; enough questions to make the middle of the table feel right."
+    },
+    {
+      "rank": 10,
+      "name": "Kansas",
+      "confWins": 4,
+      "confLosses": 5,
+      "color": "#0051A5",
+      "reason": "We expect points, nerve and at least one result that makes the whole league redraw its assumptions. Consistency is the remaining question."
+    },
+    {
+      "rank": 11,
+      "name": "Arizona",
+      "confWins": 4,
+      "confLosses": 5,
+      "color": "#AB0520",
+      "reason": "There is upset energy here. We are less certain that it lasts across an entire conference schedule."
+    },
+    {
+      "rank": 12,
+      "name": "Colorado",
+      "confWins": 3,
+      "confLosses": 6,
+      "color": "#CFB87C",
+      "reason": "The headline potential is obvious. We are making the less glamorous bet: flashes of brilliance with too many uneven Saturdays."
+    },
+    {
+      "rank": 13,
+      "name": "UCF",
+      "confWins": 3,
+      "confLosses": 6,
+      "color": "#FFC904",
+      "reason": "A team we expect to make visitors sweat. Turning that into a winning league record is the harder part."
+    },
+    {
+      "rank": 14,
+      "name": "West Virginia",
+      "confWins": 2,
+      "confLosses": 7,
+      "color": "#002855",
+      "reason": "Morgantown will steal somebody’s clean afternoon. We do not yet see enough dependable weeks around that upset."
+    },
+    {
+      "rank": 15,
+      "name": "Cincinnati",
+      "confWins": 2,
+      "confLosses": 7,
+      "color": "#E00122",
+      "reason": "Competitive stretches, narrow margins and a couple of wins that matter. Our preseason instinct stops short of calling it a breakthrough."
+    },
+    {
+      "rank": 16,
+      "name": "Oklahoma State",
+      "confWins": 1,
+      "confLosses": 8,
+      "color": "#FF6600",
+      "reason": "Our uncomfortable last-place pick. This is a vibes ballot, and the confidence comes with a very large invitation to prove us wrong."
+    }
+  ]
+}

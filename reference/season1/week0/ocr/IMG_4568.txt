@@ -1,0 +1,83 @@
+STATS
+Team Stats
+L2
+UTAH
+TEAM
+UTAH
+UTAH
+UTAH
+UTAH
+UTAH
+UTAH
+Player Stats
+PLAYER
+B.Pegan
+L.Simmons
+W.Parker
+C.Whittemore
+K.Shoels
+S.Taulanga
+• Back
+• Sort
+Scoring Summary
+• REC
+5
+4
+1
+YDS
+81
+110
+23
+45
+16
+16
+AVG
+10.1
+18.3
+4.6
+11.2
+5.3
+16.0
+Team
+TD
+1
+RAC
+13
+22
+19
+10
+5
+RAC AVG
+1.6
+0.5
+4.4
+4.7
+3.3
+5.0
+DROPS
+RECEIVING
+LONG
+43
+47
+18
+8
+16
+85
+OVR
+BRADEN
+PEGAN
+POSITION
+WR | #7
+CLASS
+JUNIOR
+ARCHETYPE
+Speedster
+HEIGHT & WEIGHT
+6'3 | 210 lbs
+HOMETOWN
+San Juan Capistrano, CA
+PHYSICAL
+Double Dip
+MENTAL
+(RS) •
+FOOTBALE 27

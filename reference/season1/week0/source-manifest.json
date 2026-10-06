@@ -1,0 +1,452 @@
+{
+  "season": 1,
+  "year": 2026,
+  "week": 0,
+  "sources": [
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4578.HEIC",
+      "category": "preseason",
+      "sha256": "65c36db5f4c73172a1d39cb7b5a9f99dcb885a5be685c8c78e25f3d9fe5767dd",
+      "bytes": 1710137
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4579.HEIC",
+      "category": "preseason",
+      "sha256": "2b8cd3d3770873eeb52a01aba57af415d32ce40b34695ea73f9a146f0b8d1dfa",
+      "bytes": 1706929
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4580.HEIC",
+      "category": "preseason",
+      "sha256": "1913f5651134f2a14eec750ff758dde08d0a48e68f6bc6b95437ac26c0253ed0",
+      "bytes": 1708532
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4581.HEIC",
+      "category": "preseason",
+      "sha256": "bef26edb81eb4598590591b2bb365cca9c51811e4ba85d1af21cf182c9f73755",
+      "bytes": 1726070
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4582.HEIC",
+      "category": "preseason",
+      "sha256": "85abae2c1fdb8226bd079c99cf7e27441aef0a440a591b5cee4434ff8910f7e5",
+      "bytes": 1755989
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4583.HEIC",
+      "category": "preseason",
+      "sha256": "704f7481d4c79ad581ce020e72f258664666565e2b720493837c0de23845537f",
+      "bytes": 1754287
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4584.HEIC",
+      "category": "preseason",
+      "sha256": "6328cabd5ea222d903538e4e29853de2234f346c1be7001659b1529a2dcbc620",
+      "bytes": 1764773
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4585.HEIC",
+      "category": "preseason",
+      "sha256": "0df00a0376d3b043383bb4444c15af77966d828e9a5aa4d6b1accf9e47f2623c",
+      "bytes": 1769865
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4586.HEIC",
+      "category": "preseason",
+      "sha256": "b0df4877c500146aa3019773945a69d9fd7271c3f33161441a010459d5e91190",
+      "bytes": 1766033
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4587.HEIC",
+      "category": "preseason",
+      "sha256": "a19fc4efaffb84d85e44fd9e5d0bc0efa7e56bbb1440f2a154f8d2ea88b41ecc",
+      "bytes": 1763977
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4588.HEIC",
+      "category": "preseason",
+      "sha256": "67d7296ca2513a514e7f862aaa42c540616eacb7b8b031c59d18dadb04095941",
+      "bytes": 1764044
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4589.HEIC",
+      "category": "preseason",
+      "sha256": "5d307a738db2660510edc5712229de2c7ef1f3703b0c08a63e3402b7675c996a",
+      "bytes": 1763920
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4590.HEIC",
+      "category": "preseason",
+      "sha256": "069cb0aab2ce5cbe527ec51fb389a0430fa1d1f2653c6364a366fc6fc0f54229",
+      "bytes": 1761563
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4591.HEIC",
+      "category": "preseason",
+      "sha256": "0aa3e106b183bd2785a3f9a0cfe5cbcf8e30b3c61d78d85991e99814ffd1b36c",
+      "bytes": 1761352
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4592.HEIC",
+      "category": "preseason",
+      "sha256": "80b69fbc94a2a451ea7bdd94a17f3c9a91b8bf45035d85fe96937334ba51d87c",
+      "bytes": 1766760
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4593.HEIC",
+      "category": "preseason",
+      "sha256": "ab911d81ad3ed54a5f5130572f449a556555665cf4653a57ebdd8d6db3d44f7d",
+      "bytes": 1766431
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4594.HEIC",
+      "category": "preseason",
+      "sha256": "d66dc71458e5c95a988e829ad9b0b6a2e5b568e9be7e70c5364944e090edf7a0",
+      "bytes": 1766167
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4595.HEIC",
+      "category": "preseason",
+      "sha256": "57540cb03dbf757154e94130b7bf97b4eb9079fd3c8e9b7d9d988dda510ab084",
+      "bytes": 1763932
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4596.HEIC",
+      "category": "preseason",
+      "sha256": "f6837d1c4ac9f2c52ac4306273548b7c14de1e306423a660aef589e96bff73e4",
+      "bytes": 1758807
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4597.HEIC",
+      "category": "preseason",
+      "sha256": "e6db229b0fb81284ff8118d288548487bbf16a85f29aa2d0c1933b83e43264c9",
+      "bytes": 1764953
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4598.HEIC",
+      "category": "preseason",
+      "sha256": "323063840f74aeac1d83d76d28f6f3a6629ec4f1f2dc40c66a9c74921fefcdf5",
+      "bytes": 1767960
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4599.HEIC",
+      "category": "preseason",
+      "sha256": "33881cab8d5a52fe3e47b39e0bbfc8dab47ebc8936ed133fe2e4ca50584d5e73",
+      "bytes": 1764670
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4600.HEIC",
+      "category": "preseason",
+      "sha256": "e58e45cc73519de2665255c489f7994c33c7e22ceed4d3bf36e65aa2d55099d8",
+      "bytes": 1762032
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4601.HEIC",
+      "category": "preseason",
+      "sha256": "c820a3565f94c381a075e99ed1e55477e54d915e4b538eaf5983c117b48614ab",
+      "bytes": 1740766
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4602.HEIC",
+      "category": "preseason",
+      "sha256": "df48c8b8770dbe4e12028c2f3da886fcd31a238edec7a7a39dcb71a5915d6681",
+      "bytes": 1743675
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4603.HEIC",
+      "category": "preseason",
+      "sha256": "cd7a1bc5c2741e7e44c5c3089ace9689a5a4cbce9a79c28417565fdef9dbc400",
+      "bytes": 1767946
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4604.HEIC",
+      "category": "preseason",
+      "sha256": "2d178a7393470671deacf7c670ee6fce84e05df73e082f9fcce5b48e4beda7e1",
+      "bytes": 1768110
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4605.HEIC",
+      "category": "preseason",
+      "sha256": "6370a9a9a7ed7d2d26c0961e53e28804f229011bc079a42ce8cbbd4cf423218e",
+      "bytes": 1750922
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4606.HEIC",
+      "category": "preseason",
+      "sha256": "3edddb359303a105db5c83491958a6f7398ed85c11304cdf91a74724b9be06e3",
+      "bytes": 1754319
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4607.HEIC",
+      "category": "preseason",
+      "sha256": "4d78dbf62b6aab68745152ef36601cc71b4ba214892f7617660db427400a4cd1",
+      "bytes": 1740640
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4608.HEIC",
+      "category": "preseason",
+      "sha256": "5fdaf6582db573d8b8a0fca54e575aebe3d9781a296723a7afbdf6839170651e",
+      "bytes": 1758564
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4609.HEIC",
+      "category": "preseason",
+      "sha256": "ebc3a08beb9e1afc710748bd0ecf96ab0acebc8f3cd359cb76466f10c25a1518",
+      "bytes": 1746604
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4610.HEIC",
+      "category": "preseason",
+      "sha256": "bbf382290d808e4a70ee3179156ce5ab68d56e0968f41e4a7ce054712719f7f6",
+      "bytes": 1744678
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4611.HEIC",
+      "category": "preseason",
+      "sha256": "cab3dbbaf6467f8e0cfcc110e7d8ffa0b4f3ecee77b4d25e666a0de146af997b",
+      "bytes": 1746693
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4612.HEIC",
+      "category": "preseason",
+      "sha256": "2e7ce932e5ea8829c41309af01e359f913754acd18b6d708cb81931790648619",
+      "bytes": 1753661
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4613.HEIC",
+      "category": "preseason",
+      "sha256": "340731edf038591381890e0de9d42eff7cb487ad509adba55c18b9aa6d483007",
+      "bytes": 1745082
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4614.HEIC",
+      "category": "preseason",
+      "sha256": "7c137ffb47099e6b67ab4c1e719be76d15210a2eb1835e1e05871c73b7410698",
+      "bytes": 1742174
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4615.HEIC",
+      "category": "preseason",
+      "sha256": "ed85aff4a8799db0cb74fc69a168d5828dfefdb6b61e77d8b1757e9a81ab7b0b",
+      "bytes": 1747036
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4616.HEIC",
+      "category": "preseason",
+      "sha256": "c1eb66c497d0ef87ce3e5236b6cd3ca0982461a850e9ad33609cc837f21d8849",
+      "bytes": 1743521
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4617.HEIC",
+      "category": "preseason",
+      "sha256": "ebaf0f24cc633b339d78fa5d60148e4aaa12bfb2b52c4e7ecf971a245957d1d0",
+      "bytes": 1753947
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4618.HEIC",
+      "category": "preseason",
+      "sha256": "58b2a66288261fef442ebc819b367785248c41e59f9cb994e65b46f02f802cdf",
+      "bytes": 1750669
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4619.HEIC",
+      "category": "preseason",
+      "sha256": "3e621d803bf2bb14222adaeb2eefb81eedd5142236cdaeab111f0285cf218e47",
+      "bytes": 1746547
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4620.HEIC",
+      "category": "preseason",
+      "sha256": "b24b76f1bb5b0ee1bcfb606b561ac33c0f83e278ddabb0fd04f11ada9e3e3cc8",
+      "bytes": 1746382
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4621.HEIC",
+      "category": "preseason",
+      "sha256": "63fb318c7a7ebd0098205181ce37f96417b332861945744aeb8df15d18b355ab",
+      "bytes": 1755275
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4622.HEIC",
+      "category": "preseason",
+      "sha256": "a2d6696d771f5afe2a4b4ac12895738aa209e28d5ebfbef2c1fcaa5a815947f7",
+      "bytes": 1744382
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4623.HEIC",
+      "category": "preseason",
+      "sha256": "eec56dd4ab84a9b2c086a5ee2f6552ced51b8db1093eb8292f85ebb2b2f87685",
+      "bytes": 1750708
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4624.HEIC",
+      "category": "preseason",
+      "sha256": "085bee83f58be3ac0aae74c02a11e7654ce56d61d806127b2fb5cac7e30b23d2",
+      "bytes": 1741135
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4625.HEIC",
+      "category": "preseason",
+      "sha256": "b1a5b99305f190d3d149bcc36fe4d896f31a0469b4ba568ff93a1a94265e0187",
+      "bytes": 1738007
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4626.HEIC",
+      "category": "preseason",
+      "sha256": "6c4f5e95c26ed4d752ae62614e8105e44956474fb1abaa03f999853b77441933",
+      "bytes": 1751935
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4627.HEIC",
+      "category": "preseason",
+      "sha256": "243c9ba043b6a00b595825dda8a5638581ec1232f1db9278ba7436a075a18c1e",
+      "bytes": 1751581
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4628.HEIC",
+      "category": "preseason",
+      "sha256": "00f834ae59fd81809334013bdc2f9d304ee2bc5afe0fdc3f76f00b708b439beb",
+      "bytes": 1715512
+    },
+    {
+      "file": "season1/week 0/rosters and pre season data/IMG_4629.HEIC",
+      "category": "preseason",
+      "sha256": "df674d774915da0b10fe0a8bb3fc488cb15e01751c06f3241d6982526a4ad39c",
+      "bytes": 1690500
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4556.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "e4902497a429141013d8072b698cba190c43ab47c12c8ad54a477faac2910f4c",
+      "bytes": 2336592
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4557.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "9b84f5581d428acefad497c0be119f3744ea142b237ae6c29273826172e90c0c",
+      "bytes": 2176486
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4558.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "7c77e3f42acd7a928a28603170bf0c67c5f2335210ffd247f508da14ba1bc540",
+      "bytes": 2236873
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4559.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "6400c5dad5361538e2ca2301dc75f74ecf54263324ac694dd79a97fbea85254a",
+      "bytes": 2279736
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4560.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "1c5205c240d48aa837035062d9bfe3a5fa6dd4cc6826696816a35935d9022590",
+      "bytes": 2285961
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4561.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "b0c95042932bef83b588eec59b3d736c9c74cbe510e7bf89844ed2c23c8092c3",
+      "bytes": 2266888
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4562.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "f5dc97b6a0ccdc7c1362ec0218e372dae74d4683d579c16b7ae3fe7f22923e45",
+      "bytes": 2323088
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4563.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "b44754e4133e9af7c6e5ee633d2beafb08f5e6df44a42ae364ad23213db9c9ed",
+      "bytes": 2318607
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4564.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "cf5f23f26d4e6cec0e23165cca9433c9db1eeca74338f723c2ac3d7c4ec55ef3",
+      "bytes": 2325438
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4565.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "e9864801d7265ef613c78ff3cefe88f16e007d5b0bac7cdb4f3325b06b3a3a82",
+      "bytes": 2310615
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4566.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "a6da722f4dfede8c77c4e706cf2ac23e0c5b742cccf35b2a9823fe7427ac9653",
+      "bytes": 2334218
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4567.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "b01bfef53f74310b72a86e679d9e4f80febbd9bfe63d054c83916cd4859208be",
+      "bytes": 2325917
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4568.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "4231157bba4946dac8b8ac94400e3e92885c77dc0d2c4f1ae85e9308f56b526e",
+      "bytes": 2310615
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4569.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "c5ee74ac3eab45be8cef471192da8c50eb223941a5f6cb3df91659cf4d455d62",
+      "bytes": 1707612
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4570.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "c7e94734bb10f54781e7b736e4f7c79a96cd8a536de8e66a73769cc47addb0b7",
+      "bytes": 1711102
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4571.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "41d126d44fb5514445559ff348b9596945e851f487d324896a1b80cdc06190b5",
+      "bytes": 1676376
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4572.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "90a32a3c677046faa50dd9e89ccb7ea4ef45026fdf14fa8f5ae6165db2f209b8",
+      "bytes": 1676866
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4573.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "11710c35d38ec857a8b8bf633a66db26856cb5405b70b2f5a40ae6282c05a6c9",
+      "bytes": 1681234
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4574.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "a878b862c82a923a9b10339ef9d468493af1348379b8ce6b1f762893d7e085d9",
+      "bytes": 1737162
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4575.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "5a36158bfff4576374a5b5e3d890c088616e681b566355244b3af81113cffea5",
+      "bytes": 1730057
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4576.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "beed6cc13a9c7315474245650ad0f804b66d3469f00e0255081fd82e30b8a800",
+      "bytes": 1732340
+    },
+    {
+      "file": "season1/week 0/utah game /IMG_4577.HEIC",
+      "category": "utah-utah-state",
+      "sha256": "9035b5aab9673fb641b0113774b550c5ce166a050293bda666ac9d66ee01d4b8",
+      "bytes": 1745553
+    }
+  ],
+  "note": "Original HEIC files remain in season1/week 0 in the intake workspace. Reference files are not rendered to the website. OCR text, when present, is unverified; structured published values were visually checked."
+}

@@ -1,0 +1,4 @@
+<div class="table-scroll"><table class="data-table">
+<thead><tr><th>Team</th><th>Overall</th><th>Big 12</th></tr></thead><tbody>
+{% for team in standings.teams %}<tr class="{% if team.name == 'Utah' %}team-utah{% elif team.name == 'BYU' %}team-byu{% endif %}"><td><span class="team-dot" style="background:{{ team.color }}"></span>{{ team.name }}</td><td>{{ team.wins }}–{{ team.losses }}</td><td>{{ team.confWins }}–{{ team.confLosses }}</td></tr>{% endfor %}
+</tbody></table></div><p class="data-note">{{ standings.note }}</p>

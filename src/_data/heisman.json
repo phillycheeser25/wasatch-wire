@@ -1,0 +1,66 @@
+{
+  "lastUpdated": "Week 0",
+  "label": "Heisman Watch",
+  "note": "The national board follows the supplied in-game Heisman screen. The Wasatch radar is our editorial watch list, separate from the national order.",
+  "source": "IMG_4581.HEIC",
+  "national": [
+    {
+      "rank": 1,
+      "name": "Jeremiah Smith",
+      "team": "Ohio State",
+      "pos": "WR",
+      "status": "Preseason watch",
+      "line": "Awaiting first result"
+    },
+    {
+      "rank": 2,
+      "name": "Malachi Toney",
+      "team": "Miami",
+      "pos": "WR",
+      "status": "Preseason watch",
+      "line": "Awaiting first result"
+    },
+    {
+      "rank": 3,
+      "name": "Dante Moore",
+      "team": "Oregon",
+      "pos": "QB",
+      "status": "Preseason watch",
+      "line": "Awaiting first result"
+    },
+    {
+      "rank": 4,
+      "name": "Julian Sayin",
+      "team": "Ohio State",
+      "pos": "QB",
+      "status": "Preseason watch",
+      "line": "Awaiting first result"
+    }
+  ],
+  "local": [
+    {
+      "name": "LJ Martin",
+      "team": "BYU",
+      "pos": "RB",
+      "line": "Season opener ahead",
+      "note": "The volume-and-victories candidate. A title push built around his running would give the watch list a reason to look west.",
+      "url": "/articles/lj-martin-spotlight/"
+    },
+    {
+      "name": "Bear Bachmeier",
+      "team": "BYU",
+      "pos": "QB",
+      "line": "Season opener ahead",
+      "note": "A quarterback with a second way to hurt a defense. His case begins with the first Wyoming snap, not borrowed statistics.",
+      "url": "/articles/bear-bachmeier-spotlight/"
+    },
+    {
+      "name": "Devon Dampier",
+      "team": "Utah",
+      "pos": "QB",
+      "line": "291 pass yds · 53 rush yds · 2 total TD",
+      "note": "An efficient opener puts him on our radar. One game earns attention; the conference schedule will decide the argument.",
+      "url": "/articles/devon-dampier-spotlight/"
+    }
+  ]
+}

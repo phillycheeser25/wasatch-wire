@@ -1,34 +1,257 @@
 {
-  "lastUpdated": "Preseason 2026",
+  "lastUpdated": "Week 0 · 2026",
+  "pollLabel": "Dynasty Media Top 25",
+  "note": "Captured in Week 0 after Utah–Utah State. Poll positions are unchanged from the supplied game screen; no new poll has been simulated.",
+  "source": [
+    "IMG_4578.HEIC",
+    "IMG_4579.HEIC",
+    "IMG_4580.HEIC"
+  ],
   "ap": [
-    { "rank": 1,  "name": "Indiana",       "conf": "Big Ten", "color": "#990000", "record": "0-0", "trend": null },
-    { "rank": 2,  "name": "Ohio State",    "conf": "Big Ten", "color": "#BB0000", "record": "0-0", "trend": null },
-    { "rank": 3,  "name": "Miami",         "conf": "ACC",     "color": "#F47321", "record": "0-0", "trend": null },
-    { "rank": 4,  "name": "Notre Dame",    "conf": "Ind.",    "color": "#003087", "record": "0-0", "trend": null },
-    { "rank": 5,  "name": "Oregon",        "conf": "Big Ten", "color": "#154733", "record": "0-0", "trend": null },
-    { "rank": 6,  "name": "Georgia",       "conf": "SEC",     "color": "#BA0C2F", "record": "0-0", "trend": null },
-    { "rank": 7,  "name": "Penn State",    "conf": "Big Ten", "color": "#041E42", "record": "0-0", "trend": null },
-    { "rank": 8,  "name": "Tennessee",     "conf": "SEC",     "color": "#FF8200", "record": "0-0", "trend": null },
-    { "rank": 9,  "name": "Alabama",       "conf": "SEC",     "color": "#9E1B32", "record": "0-0", "trend": null },
-    { "rank": 10, "name": "Texas",         "conf": "SEC",     "color": "#BF5700", "record": "0-0", "trend": null },
-    { "rank": 11, "name": "Ole Miss",      "conf": "SEC",     "color": "#CE1126", "record": "0-0", "trend": null },
-    { "rank": 12, "name": "Clemson",       "conf": "ACC",     "color": "#F56600", "record": "0-0", "trend": null },
-    { "rank": 13, "name": "BYU",           "conf": "Big 12",  "color": "#002E5D", "record": "0-0", "trend": null },
-    { "rank": 14, "name": "LSU",           "conf": "SEC",     "color": "#461D7C", "record": "0-0", "trend": null },
-    { "rank": 15, "name": "Oklahoma",      "conf": "SEC",     "color": "#841617", "record": "0-0", "trend": null },
-    { "rank": 16, "name": "South Carolina","conf": "SEC",     "color": "#73000A", "record": "0-0", "trend": null },
-    { "rank": 17, "name": "Texas Tech",    "conf": "Big 12",  "color": "#CC0000", "record": "0-0", "trend": null },
-    { "rank": 18, "name": "Michigan",      "conf": "Big Ten", "color": "#00274C", "record": "0-0", "trend": null },
-    { "rank": 19, "name": "Iowa State",    "conf": "Big 12",  "color": "#C8102E", "record": "0-0", "trend": null },
-    { "rank": 20, "name": "Colorado",      "conf": "Big 12",  "color": "#CFB87C", "record": "0-0", "trend": null },
-    { "rank": 21, "name": "Missouri",      "conf": "SEC",     "color": "#F1B82D", "record": "0-0", "trend": null },
-    { "rank": 22, "name": "Utah",          "conf": "Big 12",  "color": "#CC0000", "record": "0-0", "trend": null },
-    { "rank": 23, "name": "Nebraska",      "conf": "Big Ten", "color": "#E41C38", "record": "0-0", "trend": null },
-    { "rank": 24, "name": "Kansas State",  "conf": "Big 12",  "color": "#512888", "record": "0-0", "trend": null },
-    { "rank": 25, "name": "Arizona State", "conf": "Big 12",  "color": "#8C1D40", "record": "0-0", "trend": null }
+    {
+      "rank": 1,
+      "name": "Ohio State",
+      "points": 1569,
+      "conf": "Big Ten",
+      "record": "0-0",
+      "trend": null,
+      "color": "#BB0000"
+    },
+    {
+      "rank": 2,
+      "name": "Oregon",
+      "points": 1492,
+      "conf": "Big Ten",
+      "record": "0-0",
+      "trend": null,
+      "color": "#154733"
+    },
+    {
+      "rank": 3,
+      "name": "Notre Dame",
+      "points": 1473,
+      "conf": "Independent",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 4,
+      "name": "Georgia",
+      "points": 1364,
+      "conf": "SEC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 5,
+      "name": "Indiana",
+      "points": 1268,
+      "conf": "Big Ten",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 6,
+      "name": "Miami",
+      "points": 1257,
+      "conf": "ACC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#F47321"
+    },
+    {
+      "rank": 7,
+      "name": "Texas",
+      "points": 1197,
+      "conf": "SEC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#BF5700"
+    },
+    {
+      "rank": 8,
+      "name": "Texas A&M",
+      "points": 1096,
+      "conf": "SEC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 9,
+      "name": "Ole Miss",
+      "points": 1071,
+      "conf": "SEC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 10,
+      "name": "Oklahoma",
+      "points": 920,
+      "conf": "SEC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 11,
+      "name": "LSU",
+      "points": 866,
+      "conf": "SEC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 12,
+      "name": "BYU",
+      "points": 781,
+      "conf": "Big 12",
+      "record": "0-0",
+      "trend": null,
+      "color": "#002E5D"
+    },
+    {
+      "rank": 13,
+      "name": "Alabama",
+      "points": 684,
+      "conf": "SEC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 14,
+      "name": "Michigan",
+      "points": 666,
+      "conf": "Big Ten",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 15,
+      "name": "USC",
+      "points": 593,
+      "conf": "Big Ten",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 16,
+      "name": "Texas Tech",
+      "points": 585,
+      "conf": "Big 12",
+      "record": "0-0",
+      "trend": null,
+      "color": "#CC0000"
+    },
+    {
+      "rank": 17,
+      "name": "Penn State",
+      "points": 494,
+      "conf": "Big Ten",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 18,
+      "name": "Iowa",
+      "points": 485,
+      "conf": "Big Ten",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 19,
+      "name": "Utah",
+      "points": 381,
+      "conf": "Big 12",
+      "record": "1-0",
+      "trend": null,
+      "color": "#CC0000"
+    },
+    {
+      "rank": 20,
+      "name": "Tennessee",
+      "points": 360,
+      "conf": "SEC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 21,
+      "name": "Houston",
+      "points": 345,
+      "conf": "Big 12",
+      "record": "0-0",
+      "trend": null,
+      "color": "#C8102E"
+    },
+    {
+      "rank": 22,
+      "name": "SMU",
+      "points": 339,
+      "conf": "ACC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 23,
+      "name": "Washington",
+      "points": 309,
+      "conf": "Big Ten",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 24,
+      "name": "Louisville",
+      "points": 181,
+      "conf": "ACC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    },
+    {
+      "rank": 25,
+      "name": "Florida",
+      "points": 123,
+      "conf": "SEC",
+      "record": "0-0",
+      "trend": null,
+      "color": "#405067"
+    }
   ],
   "ourTeams": [
-    { "rank": 13, "name": "BYU",  "color": "#002E5D", "record": "0-0", "trend": null },
-    { "rank": 22, "name": "Utah", "color": "#CC0000", "record": "0-0", "trend": null }
+    {
+      "rank": 12,
+      "name": "BYU",
+      "points": 781,
+      "conf": "Big 12",
+      "record": "0-0",
+      "trend": null,
+      "color": "#002E5D"
+    },
+    {
+      "rank": 19,
+      "name": "Utah",
+      "points": 381,
+      "conf": "Big 12",
+      "record": "1-0",
+      "trend": null,
+      "color": "#CC0000"
+    }
   ]
 }

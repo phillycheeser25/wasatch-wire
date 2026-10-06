@@ -11,7 +11,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("dateDisplay", function(date) {
     return new Date(date).toLocaleDateString("en-US", {
-      year: "numeric", month: "long", day: "numeric"
+      year: "numeric", month: "long", day: "numeric", timeZone: "UTC"
     });
   });
 

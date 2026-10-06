@@ -6,8 +6,8 @@ date: 2026-06-28
 season: 1
 team: national
 category: About
-featured: true
-image: https://picsum.photos/seed/wasatch/1200/675
+featured: false
+image: /assets/images/conference.svg
 tags:
   - articles
 stats:

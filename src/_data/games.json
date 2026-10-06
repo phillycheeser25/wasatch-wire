@@ -1,0 +1,215 @@
+{
+  "lastUpdated": "Week 0",
+  "games": [
+    {
+      "id": "s1-w0-utah-utah-state",
+      "season": 1,
+      "week": 0,
+      "date": "2026-08-29",
+      "home": "Utah",
+      "away": "Utah State",
+      "homeScore": 36,
+      "awayScore": 20,
+      "homeQuarters": [
+        7,
+        13,
+        13,
+        3
+      ],
+      "awayQuarters": [
+        7,
+        7,
+        0,
+        6
+      ],
+      "location": "Rice-Eccles Stadium",
+      "status": "Final",
+      "article": "/articles/utah-utah-state-week0/",
+      "teamStats": {
+        "Utah": {
+          "firstDowns": 28,
+          "totalYards": 474,
+          "plays": 62,
+          "rushingYards": 183,
+          "passingYards": 291,
+          "turnovers": 0
+        },
+        "Utah State": {
+          "firstDowns": 12,
+          "totalYards": 299,
+          "plays": 35,
+          "rushingYards": 139,
+          "passingYards": 160,
+          "turnovers": 1
+        }
+      },
+      "passing": [
+        {
+          "team": "Utah",
+          "name": "Devon Dampier",
+          "completions": 27,
+          "attempts": 31,
+          "yards": 291,
+          "touchdowns": 1,
+          "interceptions": 0
+        }
+      ],
+      "rushing": [
+        {
+          "name": "Wayshawn Parker",
+          "carries": 19,
+          "yards": 114,
+          "touchdowns": 1
+        },
+        {
+          "name": "Devon Dampier",
+          "carries": 9,
+          "yards": 53,
+          "touchdowns": 1
+        },
+        {
+          "name": "Kyri Shoels",
+          "carries": 2,
+          "yards": 15,
+          "touchdowns": 1
+        },
+        {
+          "name": "Braden Pegan",
+          "carries": 1,
+          "yards": 1,
+          "touchdowns": 0
+        }
+      ],
+      "receiving": [
+        {
+          "name": "Braden Pegan",
+          "catches": 8,
+          "yards": 81,
+          "touchdowns": 1
+        },
+        {
+          "name": "Larry Simmons",
+          "catches": 6,
+          "yards": 110,
+          "touchdowns": 0
+        },
+        {
+          "name": "Wayshawn Parker",
+          "catches": 5,
+          "yards": 23,
+          "touchdowns": 0
+        },
+        {
+          "name": "Creed Whittemore",
+          "catches": 4,
+          "yards": 45,
+          "touchdowns": 0
+        },
+        {
+          "name": "Kyri Shoels",
+          "catches": 3,
+          "yards": 16,
+          "touchdowns": 0
+        },
+        {
+          "name": "Sione Taulanga",
+          "catches": 1,
+          "yards": 16,
+          "touchdowns": 0
+        }
+      ],
+      "scoring": [
+        {
+          "quarter": 1,
+          "time": "9:11",
+          "team": "Utah State",
+          "play": "Javen Jacobs 79-yard run; kick good"
+        },
+        {
+          "quarter": 1,
+          "time": "0:46",
+          "team": "Utah",
+          "play": "Wayshawn Parker 1-yard run; kick good"
+        },
+        {
+          "quarter": 2,
+          "time": "3:43",
+          "team": "Utah",
+          "play": "Dillon Curtis 22-yard field goal"
+        },
+        {
+          "quarter": 2,
+          "time": "0:50",
+          "team": "Utah",
+          "play": "Kyri Shoels 5-yard run; kick good"
+        },
+        {
+          "quarter": 2,
+          "time": "0:41",
+          "team": "Utah State",
+          "play": "L.J. Johnson Jr. 59-yard pass from McCae Hillstead; kick good"
+        },
+        {
+          "quarter": 2,
+          "time": "0:00",
+          "team": "Utah",
+          "play": "Dillon Curtis 35-yard field goal"
+        },
+        {
+          "quarter": 3,
+          "time": "8:05",
+          "team": "Utah",
+          "play": "Devon Dampier 12-yard run; two-point attempt failed"
+        },
+        {
+          "quarter": 3,
+          "time": "4:36",
+          "team": "Utah",
+          "play": "Braden Pegan 4-yard pass from Devon Dampier; kick good"
+        },
+        {
+          "quarter": 4,
+          "time": "6:48",
+          "team": "Utah",
+          "play": "Dillon Curtis 36-yard field goal"
+        },
+        {
+          "quarter": 4,
+          "time": "3:30",
+          "team": "Utah State",
+          "play": "Anthony Garcia 6-yard pass from McCae Hillstead; two-point attempt failed"
+        }
+      ],
+      "sources": [
+        "IMG_4558.HEIC",
+        "IMG_4559.HEIC",
+        "IMG_4560.HEIC",
+        "IMG_4562.HEIC",
+        "IMG_4564.HEIC",
+        "IMG_4565.HEIC",
+        "IMG_4569.HEIC",
+        "IMG_4570.HEIC",
+        "IMG_4574.HEIC"
+      ],
+      "homeRank": 19,
+      "leaders": [
+        {
+          "value": "474",
+          "label": "Utah total yards"
+        },
+        {
+          "value": "291",
+          "label": "Dampier pass yards"
+        },
+        {
+          "value": "114",
+          "label": "Parker rush yards"
+        },
+        {
+          "value": "110",
+          "label": "Simmons receiving yards"
+        }
+      ]
+    }
+  ]
+}

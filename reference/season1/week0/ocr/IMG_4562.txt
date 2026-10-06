@@ -1,0 +1,52 @@
+STATS
+Team Stats
+UTAH
+Player Stats
+Scoring Summary
+TEAM
+UTAH
+PLAYER
+D.Dampier
+RATING
+176.5
+COMP
+27
+ATT
+31
+Team
+• YDS
+291
+COMP%
+87
+TD
+1
+INT
+• Back
+• Sort
+PASSING
+AVG
+9.3
+R2
+LONG
+47
+DEVON
+DAMPIER
+POSITION
+QB (Right) | #4
+CLASS
+SENIOR
+HOMETOWN
+Phoenix, AZ
+PHYSICAL
+• Option King
+* Downhill
+‹ Juke Box
+89
+OVR
+ARCHETYPE
+Pure Runner
+HEIGHT & WEIGHT
+5'11" | 210 lbs
+MENTAL
+(RS)
+POOTEALE27

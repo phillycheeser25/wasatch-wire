@@ -1,0 +1,11 @@
+---
+layout: base.njk
+title: Big 12 Conference
+navActive: big12
+---
+<div class="container"><div class="page-header"><p class="eyebrow">SIXTEEN TEAMS / TWO TICKETS</p><h1 class="page-title">The Big 12 Notebook</h1><p class="page-subtitle">Season {{ site.season }} · 2026 · Week {{ site.week }}</p></div>
+<div class="conference-intro"><div><p class="eyebrow">THE PRESEASON PICK</p><h2>BYU to win it.<br>Utah to make it uncomfortable.</h2><p>Our title-game call is BYU against Texas Tech. Utah sits just behind them. The league has not played a conference game yet; this is the ballot we will have to live with.</p><a class="text-link" href="{{ '/articles/big12-preseason-ballot/' | url }}">Read the case →</a></div><div class="rivalry-date"><p>THE HOLY WAR</p><strong>NOV 7</strong><span>Week 10 · BYU at Utah<br>Rice-Eccles Stadium</span></div></div>
+<div class="section-label">Preseason projection <span>Editorial opinion</span></div><p class="data-note">{{ projections.note }}</p>
+<div class="projection-list">{% for team in projections.teams %}<div class="projection-row {% if team.name == 'BYU' %}team-byu{% elif team.name == 'Utah' %}team-utah{% endif %}"><div class="projection-rank">{{ team.rank }}</div><div><h3><span class="team-dot" style="background:{{ team.color }}"></span>{{ team.name }}</h3><p>{{ team.reason }}</p></div><div class="projection-record">{{ team.confWins }}–{{ team.confLosses }}<span>PROJECTED BIG 12</span></div></div>{% endfor %}</div>
+<div class="section-label">The actual standings <span>{{ standings.lastUpdated }}</span></div>{% include "standings-table.njk" %}
+</div>

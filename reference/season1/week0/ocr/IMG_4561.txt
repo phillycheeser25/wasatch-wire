@@ -1,0 +1,49 @@
+STATS
+Team Stats
+Player Stats
+STATE
+UTAH STATE
+RESULT
+1 (-1)
+1
+69
+368
+48.7
+010
+11:58
+Scoring Summary
+STATE
+USU
+• UTAH
+• Back
+1
+2
+7
+7
+7
+13
+STAT
+Turnovers
+Fumble Lost
+Interceptions
+PR Yards
+KR Yards
+Total Yards
+Punts
+Penalties
+Possession Time
+13
+6
+3
+Final
+20
+36
+UTAH
+RESULT
+0 (+1)
+40
+2
+516
+0.0
+2 | 10
+28:02

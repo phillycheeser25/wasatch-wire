@@ -1,0 +1,67 @@
+STATS
+Team Stats
+Player Stats
+UTAH
+TEAM
+PLAYER
+UTAH
+W.Parker
+UTAH
+D.Dampier
+UTAH
+K.Shoels
+UTAH
+B.Pegan
+Scoring Summary
+• ATT
+19
+9
+2
+1
+YDS
+114
+53
+15
+• Back
+• Sort
+AVG
+6.0
+5.8
+7.5
+Team
+TD
+1
+1
+1
+FUMB
+BTK
+YAC
+30
+RUSHING
+20+ YDS
+1
+1
+R2
+LONG
+22
+10
+1
+WAYSHAWN
+PARKER
+POSITION
+HB | #1
+CLASS
+JUNIOR
+HOMETOWN
+Richmond, CA
+PHYSICAL
+& Juke Box
+• Spin Cycle
+OVR
+ARCHETYPE
+East/West Playmaker
+HEIGHT & WEIGHT
+5'10" | 205 Ibs
+MENTAL
+(RS) •
+F8LE27

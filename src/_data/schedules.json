@@ -1,0 +1,218 @@
+{
+  "note": "2026 dynasty schedule · kickoff times Eastern, as displayed in the game. Future kickoff times are subject to in-game changes.",
+  "teams": [
+    {
+      "name": "Utah",
+      "games": [
+        {
+          "week": 0,
+          "date": "Aug 29",
+          "opponent": "Utah State",
+          "venue": "vs",
+          "detail": "W 36–20"
+        },
+        {
+          "week": 1,
+          "date": "",
+          "opponent": "BYE",
+          "venue": "",
+          "detail": ""
+        },
+        {
+          "week": 2,
+          "date": "Sep 12",
+          "opponent": "Boise State",
+          "venue": "at",
+          "detail": "5:00 PM"
+        },
+        {
+          "week": 3,
+          "date": "Sep 19",
+          "opponent": "Virginia Tech",
+          "venue": "vs",
+          "detail": "3:30 PM"
+        },
+        {
+          "week": 4,
+          "date": "Sep 26",
+          "opponent": "Iowa State",
+          "venue": "at",
+          "detail": "9:00 PM"
+        },
+        {
+          "week": 5,
+          "date": "",
+          "opponent": "BYE",
+          "venue": "",
+          "detail": ""
+        },
+        {
+          "week": 6,
+          "date": "Oct 10",
+          "opponent": "Kansas",
+          "venue": "vs",
+          "detail": "3:30 PM"
+        },
+        {
+          "week": 7,
+          "date": "Oct 17",
+          "opponent": "Colorado",
+          "venue": "at",
+          "detail": "3:30 PM"
+        },
+        {
+          "week": 8,
+          "date": "Oct 24",
+          "opponent": "Houston",
+          "venue": "vs",
+          "detail": "10:00 PM"
+        },
+        {
+          "week": 9,
+          "date": "Oct 31",
+          "opponent": "Cincinnati",
+          "venue": "at",
+          "detail": "7:00 PM"
+        },
+        {
+          "week": 10,
+          "date": "Nov 7",
+          "opponent": "BYU",
+          "venue": "vs",
+          "detail": "3:30 PM"
+        },
+        {
+          "week": 11,
+          "date": "Nov 14",
+          "opponent": "Arizona",
+          "venue": "at",
+          "detail": "10:00 PM"
+        },
+        {
+          "week": 12,
+          "date": "Nov 21",
+          "opponent": "TCU",
+          "venue": "at",
+          "detail": "12:00 PM"
+        },
+        {
+          "week": 13,
+          "date": "Nov 27",
+          "opponent": "West Virginia",
+          "venue": "vs",
+          "detail": "9:00 PM"
+        },
+        {
+          "week": 14,
+          "date": "",
+          "opponent": "BYE",
+          "venue": "",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "name": "BYU",
+      "games": [
+        {
+          "week": 0,
+          "date": "",
+          "opponent": "BYE",
+          "venue": "",
+          "detail": ""
+        },
+        {
+          "week": 1,
+          "date": "Sep 5",
+          "opponent": "Wyoming",
+          "venue": "vs",
+          "detail": "10:00 PM"
+        },
+        {
+          "week": 2,
+          "date": "Sep 12",
+          "opponent": "Arizona",
+          "venue": "vs",
+          "detail": "7:00 PM"
+        },
+        {
+          "week": 3,
+          "date": "Sep 19",
+          "opponent": "Utah State",
+          "venue": "vs",
+          "detail": "9:00 PM"
+        },
+        {
+          "week": 4,
+          "date": "",
+          "opponent": "BYE",
+          "venue": "",
+          "detail": ""
+        },
+        {
+          "week": 5,
+          "date": "Oct 3",
+          "opponent": "TCU",
+          "venue": "at",
+          "detail": "2:30 PM"
+        },
+        {
+          "week": 6,
+          "date": "Oct 9",
+          "opponent": "Iowa State",
+          "venue": "vs",
+          "detail": "10:00 PM"
+        },
+        {
+          "week": 7,
+          "date": "Oct 17",
+          "opponent": "Notre Dame",
+          "venue": "vs",
+          "detail": "2:00 PM"
+        },
+        {
+          "week": 8,
+          "date": "Oct 24",
+          "opponent": "UCF",
+          "venue": "at",
+          "detail": "12:00 PM"
+        },
+        {
+          "week": 9,
+          "date": "Oct 31",
+          "opponent": "Arizona State",
+          "venue": "vs",
+          "detail": "7:00 PM"
+        },
+        {
+          "week": 10,
+          "date": "Nov 7",
+          "opponent": "Utah",
+          "venue": "at",
+          "detail": "3:30 PM"
+        },
+        {
+          "week": 11,
+          "date": "Nov 14",
+          "opponent": "Baylor",
+          "venue": "vs",
+          "detail": "2:00 PM"
+        },
+        {
+          "week": 12,
+          "date": "Nov 21",
+          "opponent": "Kansas",
+          "venue": "at",
+          "detail": "2:00 PM"
+        },
+        {
+          "week": 13,
+          "date": "Nov 28",
+          "opponent": "Cincinnati",
+          "venue": "vs",
+          "detail": "2:00 PM"
+        }
+      ]
+    }
+  ]
+}

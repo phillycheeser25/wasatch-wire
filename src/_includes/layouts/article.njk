@@ -18,13 +18,13 @@ layout: base.njk
       <div class="article-meta">
         Wasatch Wire Staff
         {% if location %}<span class="byline-dot" style="display:inline-block;width:3px;height:3px;border-radius:50%;background:#888;margin:0 2px;vertical-align:middle;"></span> {{ location }}{% endif %}
-        {% if week %}<span class="byline-dot" style="display:inline-block;width:3px;height:3px;border-radius:50%;background:#888;margin:0 2px;vertical-align:middle;"></span> Week {{ week }}{% endif %}
+        {% if week is defined %}<span class="byline-dot" style="display:inline-block;width:3px;height:3px;border-radius:50%;background:#888;margin:0 2px;vertical-align:middle;"></span> Week {{ week }}{% endif %}
       </div>
     </header>
 
     {% if image %}
     <div class="article-hero-img">
-      <img src="{{ image }}" alt="{{ title }}">
+      <img src="{{ image | url }}" alt="{{ title }}">
     </div>
     {% endif %}
 

@@ -14,7 +14,7 @@ navActive: tabloids
     <div class="wire-article-row">
       <div class="wire-article-thumb">
         {% if article.data.image %}
-          <img src="{{ article.data.image }}" alt="{{ article.data.title }}">
+          <img src="{{ article.data.image | url }}" alt="{{ article.data.title }}">
         {% else %}
           No image
         {% endif %}

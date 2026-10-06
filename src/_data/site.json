@@ -1,6 +1,10 @@
 {
   "name": "Wasatch Wire",
-  "tagline": "Big 12 Dynasty Coverage",
+  "tagline": "Two teams. One mountain. Big 12 dynasty coverage.",
   "season": 1,
-  "baseUrl": "https://phillycheeser25.github.io/wasatch-wire"
+  "baseUrl": "https://phillycheeser25.github.io/wasatch-wire",
+  "year": 2026,
+  "week": 0,
+  "game": "EA SPORTS College Football 27",
+  "edition": "Week 0"
 }

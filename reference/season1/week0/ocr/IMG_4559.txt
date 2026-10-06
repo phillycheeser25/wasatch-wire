@@ -1,0 +1,52 @@
+STATS
+Team Stats
+Player Stats
+STATE
+UTAH STATE
+RESULT
+20
+12
+299
+35
+8.5
+13 | 139 | 1
+10.7
+13 | 22|2
+7.3
+Scoring Summary
+STATE
+USu
+UTAH
+• Back
+1
+2
+7
+7
+7
+13
+STAT
+Score
+First Downs
+Total Offense
+Total Plays
+Yards Per Play
+Rushes | Yards | TDs
+Yards Per Rush
+Comp | Att | TDs
+Yards Per Pass
+13
+6
+3
+Final
+20
+36
+UTAH
+RESULT
+36
+28
+7.6
+31 | 183 | 3
+5.9
+27 | 31 | 1
+9.4
+2 FOOTBALE27

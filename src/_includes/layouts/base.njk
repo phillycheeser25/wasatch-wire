@@ -28,9 +28,10 @@
       <li><a href="{{ '/' | url }}" {% if navActive == 'home' %}class="active"{% endif %}>Home</a></li>
       <li><a href="{{ '/wire/' | url }}" {% if navActive == 'wire' %}class="active"{% endif %}>Wire</a></li>
       <li><a href="{{ '/scores/' | url }}" {% if navActive == 'scores' %}class="active"{% endif %}>Scores</a></li>
-      <li><a href="{{ '/standings/' | url }}" {% if navActive == 'standings' %}class="active"{% endif %}>Standings</a></li>
+      <li><a href="{{ '/big-12/' | url }}" {% if navActive == 'big12' or navActive == 'standings' %}class="active"{% endif %}>Big 12</a></li>
       <li><a href="{{ '/rankings/' | url }}" {% if navActive == 'rankings' %}class="active"{% endif %}>Rankings</a></li>
-      <li><a href="{{ '/players/' | url }}" {% if navActive == 'players' %}class="active"{% endif %}>Players</a></li>
+      <li><a href="{{ '/heisman/' | url }}" {% if navActive == 'heisman' %}class="active"{% endif %}>Heisman</a></li>
+      <li><a href="{{ '/players/' | url }}" {% if navActive == 'players' %}class="active"{% endif %}>Spotlights</a></li>
       <li><a href="{{ '/recruiting/' | url }}" {% if navActive == 'recruiting' %}class="active"{% endif %}>Recruiting</a></li>
       <li><a href="{{ '/holy-war/' | url }}" {% if navActive == 'holywar' %}class="active"{% endif %}>Holy War</a></li>
       <li><a href="{{ '/tabloids/' | url }}" {% if navActive == 'tabloids' %}class="active"{% endif %}>Tabloids</a></li>
@@ -52,6 +53,8 @@
     </div>
   </div>
   {% endif %}
+
+  <div class="edition-bar"><span>SEASON {{ site.season }} / {{ site.year }}</span><span>WEEK {{ site.week }} · THE WASATCH EDITION</span></div>
 
   <main>
     {{ content | safe }}
