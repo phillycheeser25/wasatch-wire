@@ -1,0 +1,8 @@
+{
+  "method": "Built-in ImageGen",
+  "purpose": "Utah–Utah State Week 0 recap hero",
+  "prompt": "Edit target: Image 1, the wide football stadium illustration. Identity reference: Image 2, official Utah Athletics portrait of Devon Dampier. Correct the main quarterback so he resembles Devon Dampier from the reference: a young Black man with his actual medium-dark brown skin tone, compact athletic build (5 ft 11, 210 pounds), black textured twists, and short neatly trimmed facial hair. The exposed arms and neck must accurately match the reference skin tone; do not lighten them in the warm sunlight. Turn his head slightly into a visible three-quarter profile and render his face recognizably like the reference under the helmet, with a little textured hair visible. Preserve the wide stadium composition, Utah red number 4 jersey, white pants, football at his hip, distant navy opponent, red crowd, mountain backdrop and golden-hour lighting. Keep the player fully within the middle 60 percent for website cropping. Maintain premium sports-editorial painterly realism. Change the incorrect quarterback identity only; keep the rest of the image composition and atmosphere. No new text, scores, captions, watermarks or interface elements.",
+  "identity_reference": "https://utahutes.com/sports/football/roster/devon-dampier/17509",
+  "asset": "src/assets/images/utah-week0-dampier.jpg",
+  "note": "Generated editorial illustration, not a photograph of a dynasty play."
+}

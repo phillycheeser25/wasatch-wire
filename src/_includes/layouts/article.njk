@@ -24,8 +24,9 @@ layout: base.njk
 
     {% if image %}
     <div class="article-hero-img">
-      <img src="{{ image | url }}" alt="{{ title }}">
+      <img src="{{ image | url }}" alt="{{ imageAlt or title }}">
     </div>
+    {% if imageCaption %}<p style="font-size:11px;color:var(--text-muted);margin:-20px 0 28px;">{{ imageCaption }}</p>{% endif %}
     {% endif %}
 
     <div class="article-body">

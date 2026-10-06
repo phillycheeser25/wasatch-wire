@@ -7,7 +7,9 @@ season: 1
 week: 0
 team: "utah"
 category: "Game Recap"
-image: "/assets/images/utah-week0.jpg"
+image: "/assets/images/utah-week0-dampier.jpg"
+imageAlt: "Editorial illustration of Devon Dampier in Utah’s No. 4 uniform at Rice-Eccles Stadium"
+imageCaption: "Illustration: Wasatch Wire"
 featured: true
 tags: ["articles"]
 ---
