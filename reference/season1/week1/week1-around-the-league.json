@@ -1,0 +1,389 @@
+{
+  "week1": {
+    "awards": [
+      {
+        "name": "Tre Spivey",
+        "team": "Arizona",
+        "position": "WR",
+        "award": "Offensive Player of the Week",
+        "line": "10 catches \u00b7 116 yards \u00b7 2 touchdowns",
+        "opponent": "FCS Midwest",
+        "result": "W 41\u201324"
+      },
+      {
+        "name": "Brice Pollock",
+        "team": "Texas Tech",
+        "position": "CB",
+        "award": "Defensive Player of the Week",
+        "line": "1 tackle \u00b7 2 interceptions \u00b7 2 touchdowns",
+        "opponent": "FCS Midwest",
+        "result": "W 69\u201310"
+      }
+    ],
+    "headlines": [
+      "Arizona arrives in Provo at 2\u20130 with the Big 12\u2019s offensive player of the week.",
+      "Texas Tech\u2019s Brice Pollock turned two interceptions into two touchdowns in a 69\u201310 win.",
+      "Oregon beat Boise State 42\u201321; the Broncos host Utah next.",
+      "LSU edged Clemson 48\u201347 in the weekend\u2019s closest featured result."
+    ],
+    "scores": [
+      {
+        "away": "FCS Midwest",
+        "home": "Missouri",
+        "awayScore": 13,
+        "homeScore": 71
+      },
+      {
+        "away": "Miami",
+        "home": "Stanford",
+        "awayScore": 31,
+        "homeScore": 17
+      },
+      {
+        "away": "Northern Illinois",
+        "home": "Iowa",
+        "awayScore": 7,
+        "homeScore": 10
+      },
+      {
+        "away": "Ball State",
+        "home": "Ohio State",
+        "awayScore": 10,
+        "homeScore": 49
+      },
+      {
+        "away": "UTEP",
+        "home": "Oklahoma",
+        "awayScore": 0,
+        "homeScore": 52
+      },
+      {
+        "away": "Texas State",
+        "home": "Texas",
+        "awayScore": 8,
+        "homeScore": 58
+      },
+      {
+        "away": "Missouri State",
+        "home": "Texas A&M",
+        "awayScore": 8,
+        "homeScore": 45
+      },
+      {
+        "away": "Florida Atlantic",
+        "home": "Florida",
+        "awayScore": 10,
+        "homeScore": 46
+      },
+      {
+        "away": "FCS Southeast",
+        "home": "Georgia",
+        "awayScore": 6,
+        "homeScore": 34
+      },
+      {
+        "away": "North Texas",
+        "home": "Indiana",
+        "awayScore": 10,
+        "homeScore": 63
+      },
+      {
+        "away": "Fresno State",
+        "home": "USC",
+        "awayScore": 10,
+        "homeScore": 37
+      },
+      {
+        "away": "Oregon State",
+        "home": "Houston",
+        "awayScore": 10,
+        "homeScore": 28
+      },
+      {
+        "away": "Boise State",
+        "home": "Oregon",
+        "awayScore": 21,
+        "homeScore": 42
+      },
+      {
+        "away": "FCS Southeast",
+        "home": "Tennessee",
+        "awayScore": 3,
+        "homeScore": 49
+      },
+      {
+        "away": "Kent State",
+        "home": "South Carolina",
+        "awayScore": 10,
+        "homeScore": 49
+      },
+      {
+        "away": "Clemson",
+        "home": "LSU",
+        "awayScore": 47,
+        "homeScore": 48
+      },
+      {
+        "away": "Marshall",
+        "home": "Penn State",
+        "awayScore": 21,
+        "homeScore": 42
+      },
+      {
+        "away": "FCS Midwest",
+        "home": "Texas Tech",
+        "awayScore": 10,
+        "homeScore": 69
+      },
+      {
+        "away": "East Carolina",
+        "home": "Alabama",
+        "awayScore": 14,
+        "homeScore": 51
+      },
+      {
+        "away": "Wyoming",
+        "home": "BYU",
+        "awayScore": 6,
+        "homeScore": 27
+      },
+      {
+        "away": "FCS Northwest",
+        "home": "Washington",
+        "awayScore": 14,
+        "homeScore": 55
+      },
+      {
+        "away": "Louisville",
+        "home": "Ole Miss",
+        "awayScore": 28,
+        "homeScore": 42
+      },
+      {
+        "away": "SMU",
+        "home": "Florida State",
+        "awayScore": 48,
+        "homeScore": 27
+      }
+    ]
+  },
+  "heisman": {
+    "lastUpdated": "Week 1",
+    "label": "Heisman Watch",
+    "note": "The national order is unchanged from the opening watch list. Latest performances are below.",
+    "source": "Week 1 Heisman portraits",
+    "national": [
+      {
+        "rank": 1,
+        "name": "Jeremiah Smith",
+        "team": "Ohio State",
+        "pos": "WR",
+        "status": "Holding position",
+        "line": "5 catches \u00b7 130 yards \u00b7 2 TD; 16 rush yards vs Ball State (W 49\u201310)"
+      },
+      {
+        "rank": 2,
+        "name": "Malachi Toney",
+        "team": "Miami",
+        "pos": "WR",
+        "status": "Holding position",
+        "line": "6 catches \u00b7 66 yards \u00b7 1 TD at Stanford (W 31\u201317)"
+      },
+      {
+        "rank": 3,
+        "name": "Dante Moore",
+        "team": "Oregon",
+        "pos": "QB",
+        "status": "Holding position",
+        "line": "245 pass yards \u00b7 4 pass TD; 145 rush yards \u00b7 1 TD vs Boise State (W 42\u201321)"
+      },
+      {
+        "rank": 4,
+        "name": "Julian Sayin",
+        "team": "Ohio State",
+        "pos": "QB",
+        "status": "Holding position",
+        "line": "296 pass yards \u00b7 4 TD vs Ball State (W 49\u201310)"
+      }
+    ],
+    "local": [
+      {
+        "name": "LJ Martin",
+        "team": "BYU",
+        "pos": "RB",
+        "line": "60 rush yds \u00b7 2 receiving TD",
+        "note": "Two touchdown catches made him decisive against Wyoming. The running game still has room to improve.",
+        "url": "/articles/lj-martin-spotlight/"
+      },
+      {
+        "name": "Bear Bachmeier",
+        "team": "BYU",
+        "pos": "QB",
+        "line": "236 pass yds \u00b7 3 TD \u00b7 1 INT",
+        "note": "Three touchdown passes in the opening win, including the fourth-quarter strike that settled it.",
+        "url": "/articles/bear-bachmeier-spotlight/"
+      },
+      {
+        "name": "Devon Dampier",
+        "team": "Utah",
+        "pos": "QB",
+        "line": "291 pass yds \u00b7 53 rush yds \u00b7 2 total TD",
+        "note": "An efficient opener puts him on our radar. One game earns attention; the conference schedule will decide the argument.",
+        "url": "/articles/devon-dampier-spotlight/"
+      }
+    ]
+  },
+  "standings": {
+    "lastUpdated": "After Week 1",
+    "teams": [
+      {
+        "name": "Arizona",
+        "abbr": "ARIZ",
+        "color": "#AB0520",
+        "wins": 2,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Arizona State",
+        "abbr": "ASU",
+        "color": "#8C1D40",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "BYU",
+        "abbr": "BYU",
+        "color": "#002E5D",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Baylor",
+        "abbr": "BAY",
+        "color": "#003015",
+        "wins": 0,
+        "losses": 1,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Cincinnati",
+        "abbr": "CIN",
+        "color": "#E00122",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Colorado",
+        "abbr": "CU",
+        "color": "#CFB87C",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Houston",
+        "abbr": "HOU",
+        "color": "#C8102E",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Iowa State",
+        "abbr": "ISU",
+        "color": "#C8102E",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Kansas",
+        "abbr": "KU",
+        "color": "#0051A5",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Kansas State",
+        "abbr": "KSU",
+        "color": "#512888",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Oklahoma State",
+        "abbr": "OKST",
+        "color": "#FF6600",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "TCU",
+        "abbr": "TCU",
+        "color": "#4D1979",
+        "wins": 0,
+        "losses": 1,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Texas Tech",
+        "abbr": "TTU",
+        "color": "#CC0000",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "UCF",
+        "abbr": "UCF",
+        "color": "#FFC904",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "Utah",
+        "abbr": "UTAH",
+        "color": "#CC0000",
+        "wins": 1,
+        "losses": 0,
+        "confWins": 0,
+        "confLosses": 0
+      },
+      {
+        "name": "West Virginia",
+        "abbr": "WVU",
+        "color": "#002855",
+        "wins": 0,
+        "losses": 1,
+        "confWins": 0,
+        "confLosses": 0
+      }
+    ],
+    "note": "All conference records are 0\u20130. Teams are listed alphabetically; preseason projections are separate.",
+    "source": [
+      "Screenshot 2026-10-10 at 11.04.59 AM.heic"
+    ]
+  }
+}

@@ -4,7 +4,7 @@ title: Heisman Watch
 navActive: heisman
 ---
 <div class="container"><div class="page-header"><p class="eyebrow">THE RACE TO DECEMBER</p><h1 class="page-title">Heisman Watch</h1><p class="page-subtitle">Season {{ site.season }} · {{ heisman.lastUpdated }}</p></div>
-<div class="section-label">The national board <span>In-game watch list</span></div><p class="data-note">Listed in the order shown on the dynasty's Week 0 Heisman screen. No prior snapshot is available to calculate movement.</p>
+<div class="section-label">The national board <span>In-game watch list</span></div><p class="data-note">The top four hold their positions from the opening watch list. Week 1 performances give the race its first numbers.</p>
 <div class="heisman-board">{% for player in heisman.national %}<div class="heisman-row"><strong class="heisman-rank">0{{ player.rank }}</strong><div><h2>{{ player.name }}</h2><p>{{ player.team }} · {{ player.pos }}</p></div><span>{{ player.line }}</span></div>{% endfor %}</div>
 <div class="section-label">The Wasatch radar <span>Our players to follow</span></div><p class="data-note">Editorial selections, outside the game's national order. Updated as dynasty results arrive.</p>
 <div class="radar-grid">{% for player in heisman.local %}<article class="radar-card {{ player.team | lower }}"><p class="eyebrow">{{ player.team }} / {{ player.pos }}</p><h2><a href="{{ player.url | url }}">{{ player.name }}</a></h2><div class="radar-line">{{ player.line }}</div><p>{{ player.note }}</p><a class="text-link" href="{{ player.url | url }}">Read the spotlight →</a></article>{% endfor %}</div></div>

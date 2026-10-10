@@ -1,0 +1,168 @@
+{
+  "awards": [
+    {
+      "name": "Tre Spivey",
+      "team": "Arizona",
+      "position": "WR",
+      "award": "Offensive Player of the Week",
+      "line": "10 catches · 116 yards · 2 touchdowns",
+      "opponent": "FCS Midwest",
+      "result": "W 41–24"
+    },
+    {
+      "name": "Brice Pollock",
+      "team": "Texas Tech",
+      "position": "CB",
+      "award": "Defensive Player of the Week",
+      "line": "1 tackle · 2 interceptions · 2 touchdowns",
+      "opponent": "FCS Midwest",
+      "result": "W 69–10"
+    }
+  ],
+  "headlines": [
+    "Arizona arrives in Provo at 2–0 with the Big 12’s offensive player of the week.",
+    "Texas Tech’s Brice Pollock turned two interceptions into two touchdowns in a 69–10 win.",
+    "Oregon beat Boise State 42–21; the Broncos host Utah next.",
+    "LSU edged Clemson 48–47 in the weekend’s closest featured result."
+  ],
+  "scores": [
+    {
+      "away": "FCS Midwest",
+      "home": "Missouri",
+      "awayScore": 13,
+      "homeScore": 71
+    },
+    {
+      "away": "Miami",
+      "home": "Stanford",
+      "awayScore": 31,
+      "homeScore": 17
+    },
+    {
+      "away": "Northern Illinois",
+      "home": "Iowa",
+      "awayScore": 7,
+      "homeScore": 10
+    },
+    {
+      "away": "Ball State",
+      "home": "Ohio State",
+      "awayScore": 10,
+      "homeScore": 49
+    },
+    {
+      "away": "UTEP",
+      "home": "Oklahoma",
+      "awayScore": 0,
+      "homeScore": 52
+    },
+    {
+      "away": "Texas State",
+      "home": "Texas",
+      "awayScore": 8,
+      "homeScore": 58
+    },
+    {
+      "away": "Missouri State",
+      "home": "Texas A&M",
+      "awayScore": 8,
+      "homeScore": 45
+    },
+    {
+      "away": "Florida Atlantic",
+      "home": "Florida",
+      "awayScore": 10,
+      "homeScore": 46
+    },
+    {
+      "away": "FCS Southeast",
+      "home": "Georgia",
+      "awayScore": 6,
+      "homeScore": 34
+    },
+    {
+      "away": "North Texas",
+      "home": "Indiana",
+      "awayScore": 10,
+      "homeScore": 63
+    },
+    {
+      "away": "Fresno State",
+      "home": "USC",
+      "awayScore": 10,
+      "homeScore": 37
+    },
+    {
+      "away": "Oregon State",
+      "home": "Houston",
+      "awayScore": 10,
+      "homeScore": 28
+    },
+    {
+      "away": "Boise State",
+      "home": "Oregon",
+      "awayScore": 21,
+      "homeScore": 42
+    },
+    {
+      "away": "FCS Southeast",
+      "home": "Tennessee",
+      "awayScore": 3,
+      "homeScore": 49
+    },
+    {
+      "away": "Kent State",
+      "home": "South Carolina",
+      "awayScore": 10,
+      "homeScore": 49
+    },
+    {
+      "away": "Clemson",
+      "home": "LSU",
+      "awayScore": 47,
+      "homeScore": 48
+    },
+    {
+      "away": "Marshall",
+      "home": "Penn State",
+      "awayScore": 21,
+      "homeScore": 42
+    },
+    {
+      "away": "FCS Midwest",
+      "home": "Texas Tech",
+      "awayScore": 10,
+      "homeScore": 69
+    },
+    {
+      "away": "East Carolina",
+      "home": "Alabama",
+      "awayScore": 14,
+      "homeScore": 51
+    },
+    {
+      "away": "Wyoming",
+      "home": "BYU",
+      "awayScore": 6,
+      "homeScore": 27
+    },
+    {
+      "away": "FCS Northwest",
+      "home": "Washington",
+      "awayScore": 14,
+      "homeScore": 55
+    },
+    {
+      "away": "Louisville",
+      "home": "Ole Miss",
+      "awayScore": 28,
+      "homeScore": 42
+    },
+    {
+      "away": "SMU",
+      "home": "Florida State",
+      "awayScore": 48,
+      "homeScore": 27
+    }
+  ]
+}

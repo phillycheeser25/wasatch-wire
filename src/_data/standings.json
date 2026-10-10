@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Week 1 · Utah/BYU results",
+  "lastUpdated": "After Week 1",
   "teams": [
     {
       "name": "Arizona",
       "abbr": "ARIZ",
       "color": "#AB0520",
-      "wins": 0,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -14,7 +14,7 @@
       "name": "Arizona State",
       "abbr": "ASU",
       "color": "#8C1D40",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -33,7 +33,7 @@
       "abbr": "BAY",
       "color": "#003015",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "confWins": 0,
       "confLosses": 0
     },
@@ -41,7 +41,7 @@
       "name": "Cincinnati",
       "abbr": "CIN",
       "color": "#E00122",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -50,7 +50,7 @@
       "name": "Colorado",
       "abbr": "CU",
       "color": "#CFB87C",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -59,7 +59,7 @@
       "name": "Houston",
       "abbr": "HOU",
       "color": "#C8102E",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -68,7 +68,7 @@
       "name": "Iowa State",
       "abbr": "ISU",
       "color": "#C8102E",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -77,7 +77,7 @@
       "name": "Kansas",
       "abbr": "KU",
       "color": "#0051A5",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -86,7 +86,7 @@
       "name": "Kansas State",
       "abbr": "KSU",
       "color": "#512888",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -95,7 +95,7 @@
       "name": "Oklahoma State",
       "abbr": "OKST",
       "color": "#FF6600",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -105,7 +105,7 @@
       "abbr": "TCU",
       "color": "#4D1979",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "confWins": 0,
       "confLosses": 0
     },
@@ -113,7 +113,7 @@
       "name": "Texas Tech",
       "abbr": "TTU",
       "color": "#CC0000",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -122,7 +122,7 @@
       "name": "UCF",
       "abbr": "UCF",
       "color": "#FFC904",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -141,14 +141,13 @@
       "abbr": "WVU",
       "color": "#002855",
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "confWins": 0,
       "confLosses": 0
     }
   ],
-  "note": "Supplied Week 0 standings with verified Utah and BYU opening results applied. Other teams await updated standings screenshots. Teams are alphabetical; this is not a projected order.",
+  "note": "All conference records are 0–0. Teams are listed alphabetically; preseason projections are separate.",
   "source": [
-    "IMG_4628.HEIC",
-    "IMG_4629.HEIC"
+    "Screenshot 2026-10-10 at 11.04.59 AM.heic"
   ]
 }

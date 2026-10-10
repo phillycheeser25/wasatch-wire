@@ -1,0 +1,47 @@
+{
+  "classYear": 2027,
+  "prospects": [
+    {
+      "name": "Earl McGrath",
+      "pos": "QB",
+      "stars": 4,
+      "nationalRank": 81,
+      "positionRank": 9,
+      "stateRank": 3,
+      "hometown": "Greensboro, NC",
+      "size": "6 ft · 193 lb",
+      "archetype": "Backfield Creator",
+      "status": "Uncommitted",
+      "schools": [
+        "Utah",
+        "Tennessee",
+        "Clemson",
+        "USC",
+        "TCU"
+      ],
+      "url": "/articles/earl-mcgrath-spotlight/",
+      "summary": "Utah leads for the inventive Greensboro quarterback. Tennessee is the nearest challenger."
+    },
+    {
+      "name": "Harvey Humphries",
+      "pos": "CB",
+      "stars": 4,
+      "nationalRank": 35,
+      "positionRank": 3,
+      "stateRank": 1,
+      "hometown": "American Fork, UT",
+      "size": "6 ft 1 · 197 lb",
+      "archetype": "Field",
+      "status": "Uncommitted",
+      "schools": [
+        "Utah",
+        "BYU",
+        "Oregon",
+        "Illinois",
+        "Minnesota"
+      ],
+      "url": "/articles/harvey-humphries-spotlight/",
+      "summary": "Utah leads BYU for the state’s top prospect. The rivalry has reached the recruiting trail."
+    }
+  ]
+}
