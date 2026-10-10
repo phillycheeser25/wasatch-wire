@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "After Week 1",
+  "lastUpdated": "Week 2 · Utah final",
   "teams": [
     {
       "name": "Arizona",
@@ -131,7 +131,7 @@
       "name": "Utah",
       "abbr": "UTAH",
       "color": "#CC0000",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -146,7 +146,7 @@
       "confLosses": 0
     }
   ],
-  "note": "All conference records are 0–0. Teams are listed alphabetically; preseason projections are separate.",
+  "note": "Week 1 conference snapshot with Utah’s Week 2 win applied. All Big 12 records remain 0–0; teams are alphabetical.",
   "source": [
     "Screenshot 2026-10-10 at 11.04.59 AM.heic"
   ]

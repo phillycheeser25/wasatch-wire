@@ -53,7 +53,7 @@ navActive: home
     {# ─── Right Rail ─── #}
     <div class="hero-rail">
 
-      <div class="widget"><div class="widget-title">Around the Wasatch<a href="{{ '/scores/' | url }}">Schedules →</a></div><div class="wasatch-status utah"><span>No. 17 UTAH · 1–0</span><strong>Utah 36, Utah State 20</strong><p>Week 1 bye · Next: at Boise State</p></div><div class="wasatch-status byu"><span>No. 11 BYU · 1–0</span><strong>BYU 27, Wyoming 6</strong><p>Next: Arizona at BYU · Week 2</p></div></div>
+      <div class="widget"><div class="widget-title">Around the Wasatch<a href="{{ '/scores/' | url }}">Schedules →</a></div><div class="wasatch-status utah"><span>No. 17 UTAH · 2–0</span><strong>Utah 35, Boise State 19</strong><p>Next: Virginia Tech · Week 3</p></div><div class="wasatch-status byu"><span>No. 11 BYU · 1–0</span><strong>Arizona at BYU</strong><p>Week 2 · Awaiting the final</p></div></div>
       <div class="widget"><div class="widget-title">Our Big 12 ballot<a href="{{ '/big-12/' | url }}">All sixteen →</a></div><p class="data-note">Preseason opinion · projected conference record</p>{% for team in projections.teams | limit(4) %}<div class="ranking-row"><div class="ranking-num">{{ team.rank }}</div><div class="ranking-name">{{ team.name }}</div><div class="ranking-record">{{ team.confWins }}–{{ team.confLosses }}</div></div>{% endfor %}</div>
       <div class="widget"><div class="widget-title">Heisman Watch<a href="{{ '/heisman/' | url }}">The full board →</a></div><p class="data-note">National lead: Jeremiah Smith, Ohio State</p>{% for player in heisman.local %}<div class="radar-mini"><a href="{{ player.url | url }}">{{ player.name }}</a><span>{{ player.team }} · {{ player.line }}</span></div>{% endfor %}</div>
       {# Holy War #}
@@ -76,6 +76,9 @@ navActive: home
     </div>
   </div>
 
+  <div class="section-label">Quarterback tracker <span>Season 1</span></div>
+  <div class="boxscore-strip">{% for qb in seasonStats.quarterbacks %}<span><b>{{ qb.name }}</b>{{ qb.passingYards }} passing yards · {{ qb.totalTD }} total TD · through Week {{ qb.throughWeek }}</span>{% endfor %}</div>
+  <p><a class="text-link" href="{{ '/stats/' | url }}">Season statistics and every quarterback start →</a></p>
   {# ─── Latest Articles ─── #}
   <div class="home-wire">
     <div class="section-label">Latest from the wire</div>

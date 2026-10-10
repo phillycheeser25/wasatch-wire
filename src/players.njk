@@ -5,5 +5,6 @@ navActive: players
 ---
 <div class="container"><div class="page-header"><p class="eyebrow">THE PEOPLE BEHIND THE SEASON</p><h1 class="page-title">Player Spotlights</h1><p class="page-subtitle">Real backgrounds. A new season to write.</p></div>
 <p class="intro-copy">Meet the players at the center of Utah and BYU's dynasty. Their hometowns, families and paths to campus are real. Their results here begin with Season 1.</p>
+<p><a class="text-link" href="{{ '/stats/' | url }}">Follow the quarterbacks: season totals and game logs →</a></p>
 <div class="radar-grid">{% for player in profiles.players %}<article class="profile-card"><a href="{{ player.url | url }}"><img src="{{ player.image | url }}" alt="{{ player.name }} — {{ player.team }} {{ player.pos }}" loading="lazy"></a><div><p class="eyebrow">{{ player.team }} / {{ player.pos }} / NO. {{ player.number }}</p><h2><a href="{{ player.url | url }}">{{ player.name }}</a></h2><p>{{ player.title }}</p><p class="profile-path">{{ player.hometown }}<br>{{ player.school }}</p><a class="text-link" href="{{ player.url | url }}">Read the spotlight →</a></div></article>{% endfor %}</div>
 <p class="data-note">Roster and depth-chart screenshots are retained in the season source archive. This page follows the people and their stories.</p></div>

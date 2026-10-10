@@ -1,6 +1,182 @@
 {
-  "lastUpdated": "Week 1",
+  "lastUpdated": "Week 2 · Utah final",
   "games": [
+    {
+      "id": "s1-w2-utah-boise-state",
+      "season": 1,
+      "week": 2,
+      "date": "2026-09-12",
+      "home": "Boise State",
+      "away": "Utah",
+      "homeScore": 19,
+      "awayScore": 35,
+      "homeQuarters": [
+        7,
+        0,
+        6,
+        6
+      ],
+      "awayQuarters": [
+        7,
+        21,
+        7,
+        0
+      ],
+      "location": "Albertsons Stadium",
+      "status": "Final",
+      "article": "/articles/utah-boise-state-week2/",
+      "awayRank": 17,
+      "teamStats": {
+        "Utah": {
+          "firstDowns": 23,
+          "totalYards": 447,
+          "plays": 53,
+          "rushingYards": 177,
+          "passingYards": 270
+        },
+        "Boise State": {
+          "firstDowns": 16,
+          "totalYards": 300,
+          "plays": 40,
+          "rushingYards": 82,
+          "passingYards": 218
+        }
+      },
+      "passing": [
+        {
+          "team": "Utah",
+          "name": "Devon Dampier",
+          "completions": 14,
+          "attempts": 19,
+          "yards": 270,
+          "touchdowns": 3,
+          "interceptions": 1,
+          "rating": 234.6
+        },
+        {
+          "team": "Boise State",
+          "name": "Maddox Madsen",
+          "completions": 15,
+          "attempts": 22,
+          "yards": 218,
+          "touchdowns": 2,
+          "interceptions": 0
+        }
+      ],
+      "rushing": [
+        {
+          "name": "Wayshawn Parker",
+          "carries": 22,
+          "yards": 112,
+          "touchdowns": 1
+        },
+        {
+          "name": "Devon Dampier",
+          "carries": 10,
+          "yards": 53,
+          "touchdowns": 1,
+          "fumbles": 2
+        },
+        {
+          "name": "Daniel Bray",
+          "carries": 2,
+          "yards": 12,
+          "touchdowns": 0
+        }
+      ],
+      "receiving": [
+        {
+          "name": "Braden Pegan",
+          "catches": 10,
+          "yards": 204,
+          "touchdowns": 2
+        },
+        {
+          "name": "Wayshawn Parker",
+          "catches": 3,
+          "yards": 56,
+          "touchdowns": 1
+        },
+        {
+          "name": "Larry Simmons",
+          "catches": 1,
+          "yards": 10,
+          "touchdowns": 0
+        }
+      ],
+      "playerOfGame": {
+        "name": "Braden Pegan",
+        "line": "10 catches · 204 yards · 2 TD"
+      },
+      "leaders": [
+        {
+          "value": "204",
+          "label": "Pegan receiving yards"
+        },
+        {
+          "value": "270",
+          "label": "Dampier passing yards"
+        },
+        {
+          "value": "4",
+          "label": "Dampier total TD"
+        },
+        {
+          "value": "112",
+          "label": "Parker rushing yards"
+        }
+      ],
+      "scoring": [
+        {
+          "quarter": 1,
+          "time": "4:51",
+          "team": "Utah",
+          "play": "Braden Pegan 28-yard pass from Devon Dampier; kick good"
+        },
+        {
+          "quarter": 1,
+          "time": "2:07",
+          "team": "Boise State",
+          "play": "Dylan Riley 4-yard run; kick good"
+        },
+        {
+          "quarter": 2,
+          "time": "8:42",
+          "team": "Utah",
+          "play": "Braden Pegan 10-yard pass from Devon Dampier; kick good"
+        },
+        {
+          "quarter": 2,
+          "time": "4:09",
+          "team": "Utah",
+          "play": "Wayshawn Parker 12-yard run; kick good"
+        },
+        {
+          "quarter": 2,
+          "time": "0:46",
+          "team": "Utah",
+          "play": "Devon Dampier 1-yard run; kick good"
+        },
+        {
+          "quarter": 3,
+          "time": "5:34",
+          "team": "Boise State",
+          "play": "Dylan Riley 5-yard pass from Maddox Madsen; two-point attempt failed"
+        },
+        {
+          "quarter": 3,
+          "time": "1:48",
+          "team": "Utah",
+          "play": "Wayshawn Parker 46-yard pass from Devon Dampier; kick good"
+        },
+        {
+          "quarter": 4,
+          "time": "6:28",
+          "team": "Boise State",
+          "play": "Cameron Bates 4-yard pass from Maddox Madsen; two-point attempt failed"
+        }
+      ]
+    },
     {
       "id": "s1-w1-byu-wyoming",
       "season": 1,

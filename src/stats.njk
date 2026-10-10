@@ -1,0 +1,14 @@
+---
+layout: base.njk
+title: Season Statistics
+navActive: stats
+---
+<div class="container"><div class="page-header"><p class="eyebrow">THE SEASON IN NUMBERS</p><h1 class="page-title">Season Statistics</h1><p class="page-subtitle">Season {{ site.season }} · Utah through Week 2 · BYU through Week 1</p></div>
+<div class="section-label">The quarterbacks <span>Passing, rushing and every start</span></div>
+{% for qb in seasonStats.quarterbacks %}<section style="margin-bottom:40px;"><p class="eyebrow">{{ qb.team }} / THROUGH WEEK {{ qb.throughWeek }} / {{ qb.games }} {% if qb.games == 1 %}GAME{% else %}GAMES{% endif %}</p><h2>{{ qb.name }}</h2>
+<div class="boxscore-strip"><span><b>{{ qb.passingYards }}</b>Passing yards</span><span><b>{{ qb.completionPct }}%</b>Completions</span><span><b>{{ qb.passingTD }} / {{ qb.interceptions }}</b>Pass TD / INT</span><span><b>{{ qb.rushingYards }}</b>Rushing yards</span><span><b>{{ qb.totalTD }}</b>Total touchdowns</span><span><b>{{ qb.totalYards }}</b>Combined yards</span></div>
+<p>{{ qb.completions }} of {{ qb.attempts }} passing · {{ qb.yardsPerAttempt }} yards per attempt · {{ qb.carries }} carries · {{ qb.rushingTD }} rushing touchdowns</p>
+<div class="table-scroll"><table class="data-table"><thead><tr><th>Week</th><th>Opponent</th><th>Result</th><th>Comp / Att</th><th>Pass yds</th><th>Pass TD</th><th>INT</th><th>Rush yds</th><th>Rush TD</th><th>Total TD</th></tr></thead><tbody>{% for g in qb.gameLog %}<tr><td>{{ g.week }}</td><td><a href="{{ g.url | url }}">{{ g.opponent }}</a></td><td>{{ g.result }}</td><td>{{ g.completions }} / {{ g.attempts }}</td><td>{{ g.passingYards }}</td><td>{{ g.passingTD }}</td><td>{{ g.interceptions }}</td><td>{{ g.rushingYards }}</td><td>{{ g.rushingTD }}</td><td>{{ g.totalTD }}</td></tr>{% endfor %}</tbody></table></div></section>{% endfor %}
+<div class="section-label">Utah season ledger <span>{{ seasonStats.utahThrough }}</span></div><p class="data-note">Player totals through the Boise State game. BYU’s Week 2 result and statistics are pending.</p>
+{% for table in seasonStats.utahTables %}<h2 style="margin-top:28px;">{{ table.title }}</h2><div class="table-scroll"><table class="data-table"><thead><tr>{% for column in table.columns %}<th>{{ column }}</th>{% endfor %}</tr></thead><tbody>{% for row in table.rows %}<tr>{% for value in row %}<td>{{ value }}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div>{% endfor %}
+</div>
