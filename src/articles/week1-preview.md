@@ -17,7 +17,7 @@ PROVO — Utah has put a result on the board. Now BYU gets to put something next
 
 The Cougars host Wyoming on September 5 at **10 p.m. Eastern**, opening their dynasty season with a clean ledger and the expectations that come with the No. 12 spot in the preseason game poll. Utah, ranked No. 19 on that same board, spends Week 1 on a bye after beating Utah State 36–20.
 
-For Tyler’s Cougars, Saturday is the first chance to turn a promising roster into a recognizable offense. For Matt’s Utes, the assignment is quieter: carry the good parts of the opener forward and fix the plays that let the Aggies hang around.
+For the Cougars, Saturday is the first chance to turn a promising roster into a recognizable offense. For the Utes, the assignment is quieter: carry the good parts of the opener forward and fix the plays that let the Aggies hang around.
 
 ## BYU: give Bachmeier a game he can build on
 
