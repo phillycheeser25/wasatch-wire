@@ -1,0 +1,101 @@
+{
+  "id": "s1-w1-byu-wyoming",
+  "season": 1,
+  "week": 1,
+  "date": "2026-09-05",
+  "home": "BYU",
+  "away": "Wyoming",
+  "homeScore": 27,
+  "awayScore": 6,
+  "homeQuarters": [
+    14,
+    0,
+    0,
+    13
+  ],
+  "awayQuarters": [
+    0,
+    0,
+    6,
+    0
+  ],
+  "location": "Provo",
+  "status": "Final",
+  "article": "/articles/byu-wyoming-week1/",
+  "teamStats": {
+    "BYU": {
+      "firstDowns": 18,
+      "totalYards": 341,
+      "plays": 72,
+      "rushingYards": 105,
+      "passingYards": 236
+    },
+    "Wyoming": {
+      "firstDowns": 15,
+      "totalYards": 286,
+      "plays": 76,
+      "rushingYards": 56,
+      "passingYards": 230
+    }
+  },
+  "passing": [
+    {
+      "team": "BYU",
+      "name": "Bear Bachmeier",
+      "completions": 24,
+      "attempts": 36,
+      "yards": 236,
+      "touchdowns": 3,
+      "interceptions": 1
+    },
+    {
+      "team": "Wyoming",
+      "name": "Tyler Hughes",
+      "completions": 20,
+      "attempts": 36,
+      "yards": 230,
+      "touchdowns": 0,
+      "interceptions": 0
+    }
+  ],
+  "rushing": [
+    {
+      "name": "LJ Martin",
+      "carries": 16,
+      "yards": 60,
+      "touchdowns": 0
+    },
+    {
+      "name": "Bear Bachmeier",
+      "carries": 12,
+      "yards": 14,
+      "touchdowns": 0
+    }
+  ],
+  "leaders": [
+    {
+      "value": "236",
+      "label": "Bachmeier pass yards"
+    },
+    {
+      "value": "3",
+      "label": "Bachmeier pass TD"
+    },
+    {
+      "value": "2",
+      "label": "Martin receiving TD"
+    },
+    {
+      "value": "0",
+      "label": "Wyoming touchdowns"
+    }
+  ],
+  "sources": [
+    "IMG_8212.HEIC",
+    "IMG_8213.heic",
+    "IMG_8214.HEIC",
+    "IMG_8215.heic",
+    "IMG_8217.heic",
+    "Pasted 2026-10-10 at 10.46.28 AM.png"
+  ]
+}

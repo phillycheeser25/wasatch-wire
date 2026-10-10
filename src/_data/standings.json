@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Week 0",
+  "lastUpdated": "Week 1 · Utah/BYU results",
   "teams": [
     {
       "name": "Arizona",
@@ -23,7 +23,7 @@
       "name": "BYU",
       "abbr": "BYU",
       "color": "#002E5D",
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -146,7 +146,7 @@
       "confLosses": 0
     }
   ],
-  "note": "Week 0 snapshot: no conference games played. Teams are alphabetical; this is not a projected order. Records follow the supplied dynasty standings.",
+  "note": "Supplied Week 0 standings with verified Utah and BYU opening results applied. Other teams await updated standings screenshots. Teams are alphabetical; this is not a projected order.",
   "source": [
     "IMG_4628.HEIC",
     "IMG_4629.HEIC"
