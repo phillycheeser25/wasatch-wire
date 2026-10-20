@@ -1,40 +1,40 @@
 {
-  "lastUpdated": "Week 1",
+  "lastUpdated": "Week 3",
   "label": "Heisman Watch",
-  "note": "The national order is unchanged from the opening watch list. Latest performances are below.",
-  "source": "Week 1 Heisman portraits",
+  "note": "Current Week 3 national order. Local radar is editorial; Utah totals include Week 3 and BYU totals stop after Week 2.",
+  "source": "IMG_4861.HEIC–IMG_4864.HEIC",
   "national": [
     {
       "rank": 1,
-      "name": "Jeremiah Smith",
-      "team": "Ohio State",
-      "pos": "WR",
-      "status": "Holding position",
-      "line": "5 catches · 130 yards · 2 TD; 16 rush yards vs Ball State (W 49–10)"
+      "name": "Arch Manning",
+      "team": "Texas",
+      "pos": "QB",
+      "status": "Moving up",
+      "line": "290 pass yards · 2 pass TD · 61 rush yards · 1 rush TD vs Ohio State (W 28–20)"
     },
     {
       "rank": 2,
-      "name": "Malachi Toney",
+      "name": "Mark Fletcher Jr.",
       "team": "Miami",
-      "pos": "WR",
-      "status": "Holding position",
-      "line": "6 catches · 66 yards · 1 TD at Stanford (W 31–17)"
+      "pos": "RB",
+      "status": "Moving up",
+      "line": "135 rush yards · 1 TD · 23 receiving yards vs FCS Southeast (W 55–7)"
     },
     {
       "rank": 3,
-      "name": "Dante Moore",
-      "team": "Oregon",
+      "name": "Darian Mensah",
+      "team": "Miami",
       "pos": "QB",
-      "status": "Holding position",
-      "line": "245 pass yards · 4 pass TD; 145 rush yards · 1 TD vs Boise State (W 42–21)"
+      "status": "Moving up",
+      "line": "277 pass yards · 3 TD · 50 rush yards vs FCS Southeast (W 55–7)"
     },
     {
       "rank": 4,
-      "name": "Julian Sayin",
-      "team": "Ohio State",
+      "name": "Trinidad Chambliss",
+      "team": "Ole Miss",
       "pos": "QB",
-      "status": "Holding position",
-      "line": "296 pass yards · 4 TD vs Ball State (W 49–10)"
+      "status": "Moving up",
+      "line": "229 pass yards · 1 pass TD · 135 rush yards · 3 rush TD vs Charlotte (W 40–21)"
     }
   ],
   "local": [
@@ -42,25 +42,25 @@
       "name": "LJ Martin",
       "team": "BYU",
       "pos": "RB",
-      "line": "60 rush yds · 2 receiving TD",
-      "note": "Two touchdown catches made him decisive against Wyoming. The running game still has room to improve.",
-      "url": "/articles/lj-martin-spotlight/"
+      "line": "169 rush yds · 2 rush TD · 2 receiving TD",
+      "note": "109 rushing yards and two late scores against Arizona.",
+      "url": "/articles/byu-arizona-week2/"
     },
     {
       "name": "Bear Bachmeier",
       "team": "BYU",
       "pos": "QB",
-      "line": "236 pass yds · 3 TD · 1 INT",
-      "note": "Three touchdown passes in the opening win, including the fourth-quarter strike that settled it.",
-      "url": "/articles/bear-bachmeier-spotlight/"
+      "line": "435 pass yds · 79 rush yds · 6 total TD",
+      "note": "Through Week 2: four passing touchdowns and two rushing scores.",
+      "url": "/articles/byu-arizona-week2/"
     },
     {
       "name": "Devon Dampier",
       "team": "Utah",
       "pos": "QB",
-      "line": "561 pass yds · 106 rush yds · 6 total TD",
-      "note": "Through two games: 82% completions, four passing touchdowns and one interception. The Boise win added four total scores.",
-      "url": "/articles/devon-dampier-spotlight/"
+      "line": "755 pass yds · 171 rush yds · 9 total TD",
+      "note": "Through Week 3: 58 of 74 passing, seven passing TD and two interceptions.",
+      "url": "/articles/utah-virginia-tech-week3/"
     }
   ]
 }

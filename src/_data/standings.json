@@ -1,29 +1,20 @@
 {
-  "lastUpdated": "Week 2 · Utah final",
+  "lastUpdated": "Week 3 · Utah final · BYU pending",
   "teams": [
     {
-      "name": "Arizona",
-      "abbr": "ARIZ",
-      "color": "#AB0520",
+      "name": "BYU",
+      "abbr": "BYU",
+      "color": "#002E5D",
       "wins": 2,
       "losses": 0,
-      "confWins": 0,
+      "confWins": 1,
       "confLosses": 0
     },
     {
       "name": "Arizona State",
       "abbr": "ASU",
       "color": "#8C1D40",
-      "wins": 1,
-      "losses": 0,
-      "confWins": 0,
-      "confLosses": 0
-    },
-    {
-      "name": "BYU",
-      "abbr": "BYU",
-      "color": "#002E5D",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -32,7 +23,7 @@
       "name": "Baylor",
       "abbr": "BAY",
       "color": "#003015",
-      "wins": 0,
+      "wins": 1,
       "losses": 1,
       "confWins": 0,
       "confLosses": 0
@@ -41,7 +32,7 @@
       "name": "Cincinnati",
       "abbr": "CIN",
       "color": "#E00122",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -50,7 +41,7 @@
       "name": "Colorado",
       "abbr": "CU",
       "color": "#CFB87C",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -59,7 +50,7 @@
       "name": "Houston",
       "abbr": "HOU",
       "color": "#C8102E",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -68,7 +59,7 @@
       "name": "Iowa State",
       "abbr": "ISU",
       "color": "#C8102E",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -77,7 +68,7 @@
       "name": "Kansas",
       "abbr": "KU",
       "color": "#0051A5",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -86,7 +77,7 @@
       "name": "Kansas State",
       "abbr": "KSU",
       "color": "#512888",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -96,7 +87,7 @@
       "abbr": "OKST",
       "color": "#FF6600",
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "confWins": 0,
       "confLosses": 0
     },
@@ -104,7 +95,7 @@
       "name": "TCU",
       "abbr": "TCU",
       "color": "#4D1979",
-      "wins": 0,
+      "wins": 1,
       "losses": 1,
       "confWins": 0,
       "confLosses": 0
@@ -113,7 +104,7 @@
       "name": "Texas Tech",
       "abbr": "TTU",
       "color": "#CC0000",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -122,7 +113,7 @@
       "name": "UCF",
       "abbr": "UCF",
       "color": "#FFC904",
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -131,7 +122,7 @@
       "name": "Utah",
       "abbr": "UTAH",
       "color": "#CC0000",
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "confWins": 0,
       "confLosses": 0
@@ -140,14 +131,24 @@
       "name": "West Virginia",
       "abbr": "WVU",
       "color": "#002855",
-      "wins": 0,
+      "wins": 1,
       "losses": 1,
       "confWins": 0,
       "confLosses": 0
+    },
+    {
+      "name": "Arizona",
+      "abbr": "ARIZ",
+      "color": "#AB0520",
+      "wins": 2,
+      "losses": 1,
+      "confWins": 0,
+      "confLosses": 1
     }
   ],
-  "note": "Week 1 conference snapshot with Utah’s Week 2 win applied. All Big 12 records remain 0–0; teams are alphabetical.",
+  "note": "Week 3 snapshot: BYU leads at 1–0 in league play; Arizona is 0–1. Utah’s Virginia Tech result is included. BYU–Utah State and all other Week 3 games remain pending.",
   "source": [
-    "Screenshot 2026-10-10 at 11.04.59 AM.heic"
+    "IMG_4865.HEIC",
+    "IMG_4866.HEIC"
   ]
 }

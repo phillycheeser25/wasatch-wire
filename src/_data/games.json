@@ -1,6 +1,201 @@
 {
-  "lastUpdated": "Week 2 · Utah final",
+  "lastUpdated": "Week 3 · Utah final · BYU pending",
   "games": [
+    {
+      "id": "s1-w3-utah-virginia-tech",
+      "season": 1,
+      "week": 3,
+      "date": "2026-09-19",
+      "home": "Utah",
+      "away": "Virginia Tech",
+      "homeScore": 44,
+      "awayScore": 34,
+      "homeQuarters": [
+        3,
+        21,
+        0,
+        20
+      ],
+      "awayQuarters": [
+        7,
+        7,
+        7,
+        13
+      ],
+      "location": "Rice-Eccles Stadium",
+      "status": "Final",
+      "article": "/articles/utah-virginia-tech-week3/",
+      "homeRank": 13,
+      "teamStats": {
+        "Utah": {
+          "firstDowns": 24,
+          "totalYards": 395,
+          "plays": 56,
+          "rushingYards": 201,
+          "passingYards": 194
+        },
+        "Virginia Tech": {
+          "firstDowns": 19,
+          "totalYards": 344,
+          "plays": 42,
+          "rushingYards": 45,
+          "passingYards": 299
+        }
+      },
+      "passing": [
+        {
+          "team": "Utah",
+          "name": "Devon Dampier",
+          "completions": 17,
+          "attempts": 24,
+          "yards": 194,
+          "touchdowns": 3,
+          "interceptions": 1
+        },
+        {
+          "team": "Virginia Tech",
+          "name": "Ethan Grunkemeyer",
+          "completions": 22,
+          "attempts": 30,
+          "yards": 299,
+          "touchdowns": 2,
+          "interceptions": 1
+        }
+      ],
+      "rushing": [
+        {
+          "name": "Wayshawn Parker",
+          "carries": 18,
+          "yards": 118,
+          "touchdowns": 2
+        },
+        {
+          "name": "Devon Dampier",
+          "carries": 10,
+          "yards": 65,
+          "touchdowns": 0
+        },
+        {
+          "name": "Braden Pegan",
+          "carries": 4,
+          "yards": 18,
+          "touchdowns": 0
+        }
+      ],
+      "receiving": [
+        {
+          "name": "Braden Pegan",
+          "catches": 8,
+          "yards": 76,
+          "touchdowns": 2
+        },
+        {
+          "name": "Sione Taulanga",
+          "catches": 3,
+          "yards": 36,
+          "touchdowns": 0
+        },
+        {
+          "name": "Kyri Shoels",
+          "catches": 3,
+          "yards": 40,
+          "touchdowns": 0
+        },
+        {
+          "name": "Larry Simmons",
+          "catches": 3,
+          "yards": 42,
+          "touchdowns": 1
+        }
+      ],
+      "leaders": [
+        {
+          "value": "118",
+          "label": "Parker rushing yards"
+        },
+        {
+          "value": "73",
+          "label": "Davis interception-return yards"
+        },
+        {
+          "value": "3",
+          "label": "Dampier passing TD"
+        },
+        {
+          "value": "76",
+          "label": "Pegan receiving yards"
+        }
+      ]
+    },
+    {
+      "id": "s1-w2-byu-arizona",
+      "season": 1,
+      "week": 2,
+      "date": "2026-09-12",
+      "home": "BYU",
+      "away": "Arizona",
+      "homeScore": 35,
+      "awayScore": 13,
+      "homeQuarters": [
+        7,
+        7,
+        7,
+        14
+      ],
+      "awayQuarters": [
+        0,
+        7,
+        3,
+        3
+      ],
+      "location": "LaVell Edwards Stadium",
+      "status": "Final",
+      "article": "/articles/byu-arizona-week2/",
+      "homeRank": 11,
+      "passing": [
+        {
+          "team": "BYU",
+          "name": "Bear Bachmeier",
+          "completions": 19,
+          "attempts": 36,
+          "yards": 199,
+          "touchdowns": 1,
+          "interceptions": 0
+        }
+      ],
+      "rushing": [
+        {
+          "name": "LJ Martin",
+          "carries": 18,
+          "yards": 109,
+          "touchdowns": 2
+        },
+        {
+          "name": "Bear Bachmeier",
+          "carries": 12,
+          "yards": 65,
+          "touchdowns": 2
+        }
+      ],
+      "leaders": [
+        {
+          "value": "109",
+          "label": "Martin rushing yards"
+        },
+        {
+          "value": "2",
+          "label": "Martin rushing TD"
+        },
+        {
+          "value": "199",
+          "label": "Bachmeier passing yards"
+        },
+        {
+          "value": "65",
+          "label": "Bachmeier rushing yards"
+        }
+      ]
+    },
     {
       "id": "s1-w2-utah-boise-state",
       "season": 1,

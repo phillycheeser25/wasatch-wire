@@ -1,0 +1,1260 @@
+{
+  "utahGame": {
+    "id": "s1-w3-utah-virginia-tech",
+    "season": 1,
+    "week": 3,
+    "date": "2026-09-19",
+    "home": "Utah",
+    "away": "Virginia Tech",
+    "homeScore": 44,
+    "awayScore": 34,
+    "homeQuarters": [
+      3,
+      21,
+      0,
+      20
+    ],
+    "awayQuarters": [
+      7,
+      7,
+      7,
+      13
+    ],
+    "location": "Rice-Eccles Stadium",
+    "status": "Final",
+    "article": "/articles/utah-virginia-tech-week3/",
+    "homeRank": 13,
+    "teamStats": {
+      "Utah": {
+        "firstDowns": 24,
+        "totalYards": 395,
+        "plays": 56,
+        "rushingYards": 201,
+        "passingYards": 194
+      },
+      "Virginia Tech": {
+        "firstDowns": 19,
+        "totalYards": 344,
+        "plays": 42,
+        "rushingYards": 45,
+        "passingYards": 299
+      }
+    },
+    "passing": [
+      {
+        "team": "Utah",
+        "name": "Devon Dampier",
+        "completions": 17,
+        "attempts": 24,
+        "yards": 194,
+        "touchdowns": 3,
+        "interceptions": 1
+      },
+      {
+        "team": "Virginia Tech",
+        "name": "Ethan Grunkemeyer",
+        "completions": 22,
+        "attempts": 30,
+        "yards": 299,
+        "touchdowns": 2,
+        "interceptions": 1
+      }
+    ],
+    "rushing": [
+      {
+        "name": "Wayshawn Parker",
+        "carries": 18,
+        "yards": 118,
+        "touchdowns": 2
+      },
+      {
+        "name": "Devon Dampier",
+        "carries": 10,
+        "yards": 65,
+        "touchdowns": 0
+      },
+      {
+        "name": "Braden Pegan",
+        "carries": 4,
+        "yards": 18,
+        "touchdowns": 0
+      }
+    ],
+    "receiving": [
+      {
+        "name": "Braden Pegan",
+        "catches": 8,
+        "yards": 76,
+        "touchdowns": 2
+      },
+      {
+        "name": "Sione Taulanga",
+        "catches": 3,
+        "yards": 36,
+        "touchdowns": 0
+      },
+      {
+        "name": "Kyri Shoels",
+        "catches": 3,
+        "yards": 40,
+        "touchdowns": 0
+      },
+      {
+        "name": "Larry Simmons",
+        "catches": 3,
+        "yards": 42,
+        "touchdowns": 1
+      }
+    ],
+    "leaders": [
+      {
+        "value": "118",
+        "label": "Parker rushing yards"
+      },
+      {
+        "value": "73",
+        "label": "Davis interception-return yards"
+      },
+      {
+        "value": "3",
+        "label": "Dampier passing TD"
+      },
+      {
+        "value": "76",
+        "label": "Pegan receiving yards"
+      }
+    ]
+  },
+  "byuWeek2": {
+    "id": "s1-w2-byu-arizona",
+    "season": 1,
+    "week": 2,
+    "date": "2026-09-12",
+    "home": "BYU",
+    "away": "Arizona",
+    "homeScore": 35,
+    "awayScore": 13,
+    "homeQuarters": [
+      7,
+      7,
+      7,
+      14
+    ],
+    "awayQuarters": [
+      0,
+      7,
+      3,
+      3
+    ],
+    "location": "LaVell Edwards Stadium",
+    "status": "Final",
+    "article": "/articles/byu-arizona-week2/",
+    "homeRank": 11,
+    "passing": [
+      {
+        "team": "BYU",
+        "name": "Bear Bachmeier",
+        "completions": 19,
+        "attempts": 36,
+        "yards": 199,
+        "touchdowns": 1,
+        "interceptions": 0
+      }
+    ],
+    "rushing": [
+      {
+        "name": "LJ Martin",
+        "carries": 18,
+        "yards": 109,
+        "touchdowns": 2
+      },
+      {
+        "name": "Bear Bachmeier",
+        "carries": 12,
+        "yards": 65,
+        "touchdowns": 2
+      }
+    ],
+    "leaders": [
+      {
+        "value": "109",
+        "label": "Martin rushing yards"
+      },
+      {
+        "value": "2",
+        "label": "Martin rushing TD"
+      },
+      {
+        "value": "199",
+        "label": "Bachmeier passing yards"
+      },
+      {
+        "value": "65",
+        "label": "Bachmeier rushing yards"
+      }
+    ]
+  },
+  "byuWeek3": "Pending; no result or statistics applied",
+  "recruiting": [
+    {
+      "name": "Denzel Tiffin",
+      "pos": "WILL",
+      "nationalRank": 14,
+      "hometown": "Mountain View, CA",
+      "size": "6 ft 1 · 214 lb",
+      "archetype": "Lurker",
+      "schools": [
+        "Oregon",
+        "Notre Dame",
+        "Washington",
+        "BYU",
+        "Georgia"
+      ],
+      "summary": "BYU is fourth, has offered, and is moving up. Top 5 stage.",
+      "source": "IMG_4881.HEIC"
+    },
+    {
+      "name": "Patrick Cargile",
+      "pos": "CB",
+      "nationalRank": 18,
+      "hometown": "West Linn, OR",
+      "size": "6 ft 3 · 185 lb",
+      "archetype": "Zone",
+      "schools": [
+        "Ohio State",
+        "Washington",
+        "USC",
+        "BYU",
+        "Nebraska"
+      ],
+      "summary": "BYU is fourth with an offer and an upward indicator. Top 5 stage.",
+      "source": "IMG_4882.HEIC"
+    },
+    {
+      "name": "Moses Smith",
+      "pos": "ATH",
+      "nationalRank": 32,
+      "hometown": "Frisco, TX",
+      "size": "6 ft 1 · 205 lb",
+      "archetype": "Elusive Bruiser",
+      "schools": [
+        "Texas A&M",
+        "BYU",
+        "Alabama",
+        "Oklahoma",
+        "LSU"
+      ],
+      "summary": "BYU is second behind Texas A&M, has offered, and is moving up. Top 5 stage.",
+      "source": "IMG_4883.HEIC"
+    },
+    {
+      "name": "Devante Harris",
+      "pos": "SAM",
+      "nationalRank": 42,
+      "hometown": "Greenbrae, CA",
+      "size": "6 ft 4 · 238 lb",
+      "archetype": "Signal Caller",
+      "schools": [
+        "Utah",
+        "Illinois",
+        "Oregon",
+        "Texas",
+        "USC"
+      ],
+      "summary": "Utah leads and has offered. Top 5 stage.",
+      "source": "IMG_4885.HEIC"
+    }
+  ],
+  "rankings": {
+    "lastUpdated": "Week 3 · 2026",
+    "pollLabel": "Dynasty Top 25",
+    "note": "Week 3 dynasty poll. Utah’s record includes the Virginia Tech final; BYU–Utah State remains pending. Movement is from the Week 2 poll.",
+    "source": [
+      "IMG_4867.HEIC"
+    ],
+    "ap": [
+      {
+        "rank": 1,
+        "name": "Texas",
+        "conf": "SEC",
+        "record": "2–0",
+        "trend": 5,
+        "color": "#BF5700"
+      },
+      {
+        "rank": 2,
+        "name": "Miami",
+        "conf": "ACC",
+        "record": "3–0",
+        "trend": -1,
+        "color": "#F47321"
+      },
+      {
+        "rank": 3,
+        "name": "Oregon",
+        "conf": "Big Ten",
+        "record": "2–0",
+        "trend": 0,
+        "color": "#154733"
+      },
+      {
+        "rank": 4,
+        "name": "Indiana",
+        "conf": "Big Ten",
+        "record": "2–0",
+        "trend": 1,
+        "color": "#405067"
+      },
+      {
+        "rank": 5,
+        "name": "Ole Miss",
+        "conf": "SEC",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#405067"
+      },
+      {
+        "rank": 6,
+        "name": "Oklahoma",
+        "conf": "SEC",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#405067"
+      },
+      {
+        "rank": 7,
+        "name": "LSU",
+        "conf": "SEC",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#405067"
+      },
+      {
+        "rank": 8,
+        "name": "BYU",
+        "conf": "Big 12",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#002E5D"
+      },
+      {
+        "rank": 9,
+        "name": "Alabama",
+        "conf": "SEC",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#405067"
+      },
+      {
+        "rank": 10,
+        "name": "Ohio State",
+        "conf": "Big Ten",
+        "record": "1–1",
+        "trend": -8,
+        "color": "#BB0000"
+      },
+      {
+        "rank": 11,
+        "name": "USC",
+        "conf": "Big Ten",
+        "record": "2–0",
+        "trend": 2,
+        "color": "#405067"
+      },
+      {
+        "rank": 12,
+        "name": "Texas Tech",
+        "conf": "Big 12",
+        "record": "2–0",
+        "trend": 2,
+        "color": "#CC0000"
+      },
+      {
+        "rank": 13,
+        "name": "Utah",
+        "conf": "Big 12",
+        "record": "3–0",
+        "trend": 4,
+        "color": "#CC0000"
+      },
+      {
+        "rank": 14,
+        "name": "Tennessee",
+        "conf": "SEC",
+        "record": "2–0",
+        "trend": 4,
+        "color": "#405067"
+      },
+      {
+        "rank": 15,
+        "name": "Houston",
+        "conf": "Big 12",
+        "record": "2–0",
+        "trend": 4,
+        "color": "#C8102E"
+      },
+      {
+        "rank": 16,
+        "name": "Texas A&M",
+        "conf": "SEC",
+        "record": "1–1",
+        "trend": -9,
+        "color": "#405067"
+      },
+      {
+        "rank": 17,
+        "name": "SMU",
+        "conf": "ACC",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#405067"
+      },
+      {
+        "rank": 18,
+        "name": "Washington",
+        "conf": "Big Ten",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#405067"
+      },
+      {
+        "rank": 19,
+        "name": "Florida",
+        "conf": "SEC",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#405067"
+      },
+      {
+        "rank": 20,
+        "name": "Georgia",
+        "conf": "SEC",
+        "record": "1–1",
+        "trend": -16,
+        "color": "#405067"
+      },
+      {
+        "rank": 21,
+        "name": "South Carolina",
+        "conf": "SEC",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#405067"
+      },
+      {
+        "rank": 22,
+        "name": "Virginia",
+        "conf": "ACC",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#405067"
+      },
+      {
+        "name": "Auburn",
+        "conf": "SEC",
+        "color": "#405067",
+        "rank": 23,
+        "record": "2–0",
+        "trend": null
+      },
+      {
+        "rank": 24,
+        "name": "Iowa",
+        "conf": "Big Ten",
+        "record": "1–1",
+        "trend": -8,
+        "color": "#405067"
+      },
+      {
+        "name": "Notre Dame",
+        "conf": "Independent",
+        "color": "#405067",
+        "rank": 25,
+        "record": "1–2",
+        "trend": null
+      }
+    ],
+    "ourTeams": [
+      {
+        "rank": 8,
+        "name": "BYU",
+        "conf": "Big 12",
+        "record": "2–0",
+        "trend": 3,
+        "color": "#002E5D"
+      },
+      {
+        "rank": 13,
+        "name": "Utah",
+        "conf": "Big 12",
+        "record": "3–0",
+        "trend": 4,
+        "color": "#CC0000"
+      }
+    ]
+  },
+  "stats": {
+    "season": 1,
+    "year": 2026,
+    "utahThrough": "Week 3 · 3 games",
+    "byuThrough": "Week 2 · 2 games",
+    "quarterbacks": [
+      {
+        "name": "Devon Dampier",
+        "team": "Utah",
+        "throughWeek": 3,
+        "games": 3,
+        "completions": 58,
+        "attempts": 74,
+        "completionPct": "78.4",
+        "passingYards": 755,
+        "passingTD": 7,
+        "interceptions": 2,
+        "carries": 29,
+        "rushingYards": 171,
+        "rushingTD": 2,
+        "totalTD": 9,
+        "totalYards": 926,
+        "yardsPerAttempt": "10.2",
+        "gameLog": [
+          {
+            "week": 0,
+            "opponent": "Utah State",
+            "result": "W 36–20",
+            "completions": 27,
+            "attempts": 31,
+            "passingYards": 291,
+            "passingTD": 1,
+            "interceptions": 0,
+            "rushingYards": 53,
+            "rushingTD": 1,
+            "totalTD": 2,
+            "url": "/articles/utah-utah-state-week0/"
+          },
+          {
+            "week": 2,
+            "opponent": "at Boise State",
+            "result": "W 35–19",
+            "completions": 14,
+            "attempts": 19,
+            "passingYards": 270,
+            "passingTD": 3,
+            "interceptions": 1,
+            "rushingYards": 53,
+            "rushingTD": 1,
+            "totalTD": 4,
+            "url": "/articles/utah-boise-state-week2/"
+          },
+          {
+            "week": 3,
+            "opponent": "Virginia Tech",
+            "result": "W 44–34",
+            "completions": 17,
+            "attempts": 24,
+            "passingYards": 194,
+            "passingTD": 3,
+            "interceptions": 1,
+            "rushingYards": 65,
+            "rushingTD": 0,
+            "totalTD": 3,
+            "url": "/articles/utah-virginia-tech-week3/"
+          }
+        ]
+      },
+      {
+        "name": "Bear Bachmeier",
+        "team": "BYU",
+        "throughWeek": 2,
+        "games": 2,
+        "completions": 43,
+        "attempts": 72,
+        "completionPct": "59.7",
+        "passingYards": 435,
+        "passingTD": 4,
+        "interceptions": 1,
+        "carries": 24,
+        "rushingYards": 79,
+        "rushingTD": 2,
+        "totalTD": 6,
+        "totalYards": 514,
+        "yardsPerAttempt": "6.0",
+        "gameLog": [
+          {
+            "week": 1,
+            "opponent": "Wyoming",
+            "result": "W 27–6",
+            "completions": 24,
+            "attempts": 36,
+            "passingYards": 236,
+            "passingTD": 3,
+            "interceptions": 1,
+            "rushingYards": 14,
+            "rushingTD": 0,
+            "totalTD": 3,
+            "url": "/articles/byu-wyoming-week1/"
+          },
+          {
+            "week": 2,
+            "opponent": "Arizona",
+            "result": "W 35–13",
+            "completions": 19,
+            "attempts": 36,
+            "passingYards": 199,
+            "passingTD": 1,
+            "interceptions": 0,
+            "rushingYards": 65,
+            "rushingTD": 2,
+            "totalTD": 3,
+            "url": "/articles/byu-arizona-week2/"
+          }
+        ]
+      }
+    ],
+    "utahTables": [
+      {
+        "title": "Passing",
+        "columns": [
+          "Player",
+          "GP",
+          "Comp",
+          "Att",
+          "Comp %",
+          "Yards",
+          "TD",
+          "INT"
+        ],
+        "rows": [
+          [
+            "Devon Dampier",
+            3,
+            58,
+            74,
+            "78.4%",
+            755,
+            7,
+            2
+          ]
+        ]
+      },
+      {
+        "title": "Rushing",
+        "columns": [
+          "Player",
+          "GP",
+          "Carries",
+          "Yards",
+          "Avg",
+          "TD",
+          "Long"
+        ],
+        "rows": [
+          [
+            "Wayshawn Parker",
+            3,
+            59,
+            344,
+            "5.8",
+            4,
+            68
+          ],
+          [
+            "Devon Dampier",
+            3,
+            29,
+            171,
+            "5.9",
+            2,
+            20
+          ],
+          [
+            "Braden Pegan",
+            3,
+            5,
+            19,
+            "3.8",
+            0,
+            8
+          ],
+          [
+            "Kyri Shoels",
+            3,
+            2,
+            15,
+            "7.5",
+            0,
+            10
+          ],
+          [
+            "Daniel Bray",
+            3,
+            2,
+            12,
+            "6.0",
+            0,
+            9
+          ]
+        ]
+      },
+      {
+        "title": "Receiving",
+        "columns": [
+          "Player",
+          "GP",
+          "Rec",
+          "Yards",
+          "Avg",
+          "TD",
+          "Long"
+        ],
+        "rows": [
+          [
+            "Braden Pegan",
+            3,
+            26,
+            361,
+            "13.9",
+            5,
+            43
+          ],
+          [
+            "Larry Simmons",
+            3,
+            10,
+            162,
+            "16.2",
+            1,
+            47
+          ],
+          [
+            "Wayshawn Parker",
+            3,
+            8,
+            79,
+            "9.9",
+            1,
+            46
+          ],
+          [
+            "Kyri Shoels",
+            3,
+            6,
+            56,
+            "9.3",
+            0,
+            17
+          ],
+          [
+            "Sione Taulanga",
+            3,
+            4,
+            52,
+            "13.0",
+            0,
+            17
+          ],
+          [
+            "Creed Whittemore",
+            3,
+            4,
+            45,
+            "11.3",
+            0,
+            18
+          ]
+        ]
+      },
+      {
+        "title": "Blocking · through Week 2",
+        "columns": [
+          "Player",
+          "Pos",
+          "GP",
+          "Sacks allowed",
+          "Snaps"
+        ],
+        "rows": [
+          [
+            "Zereoue Williams",
+            "LT",
+            2,
+            0,
+            118
+          ],
+          [
+            "Keith Olson",
+            "RG",
+            2,
+            0,
+            118
+          ],
+          [
+            "Kelvin Obot",
+            "LT",
+            2,
+            0,
+            118
+          ],
+          [
+            "S. Moa'i",
+            "LG",
+            2,
+            2,
+            118
+          ],
+          [
+            "Alex Harrison",
+            "C",
+            2,
+            0,
+            115
+          ],
+          [
+            "T. Palm",
+            "RT",
+            1,
+            0,
+            3
+          ],
+          [
+            "D. Crater",
+            "LG",
+            1,
+            0,
+            3
+          ],
+          [
+            "C. Jefferson",
+            "RT",
+            1,
+            0,
+            3
+          ],
+          [
+            "R. Alderman",
+            "RG",
+            0,
+            0,
+            0
+          ],
+          [
+            "I. Garcia",
+            "RT",
+            0,
+            0,
+            0
+          ],
+          [
+            "A. Fehoko",
+            "LG",
+            0,
+            0,
+            0
+          ],
+          [
+            "D. Escalante",
+            "C",
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "title": "Defense · through Week 2",
+        "columns": [
+          "Player",
+          "GP",
+          "Solo",
+          "Assist",
+          "Tackles",
+          "TFL",
+          "Sacks",
+          "INT",
+          "INT yards"
+        ],
+        "rows": [
+          [
+            "Rabbit Evans",
+            2,
+            4,
+            6,
+            10,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            "Elijah Davis",
+            2,
+            6,
+            4,
+            10,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            "Johnathan Hall",
+            2,
+            5,
+            4,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            "Jackson Bennee",
+            2,
+            2,
+            6,
+            8,
+            0,
+            0,
+            1,
+            19
+          ],
+          [
+            "Elijah Reed",
+            2,
+            3,
+            4,
+            7,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            "Nate Ritchie",
+            2,
+            1,
+            5,
+            6,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            "Cyrus Polu",
+            2,
+            2,
+            3,
+            5,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            "Karson Kaufusi",
+            2,
+            3,
+            2,
+            5,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            "Trey Reynolds",
+            2,
+            1,
+            4,
+            5,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            "Lance Holtzclaw",
+            2,
+            3,
+            1,
+            4,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            "B. Taylor",
+            2,
+            2,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            "Lucas Samsula",
+            2,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "byuTables": [
+      {
+        "title": "Passing",
+        "columns": [
+          "Player",
+          "GP",
+          "Comp",
+          "Att",
+          "Comp %",
+          "Yards",
+          "TD",
+          "INT"
+        ],
+        "rows": [
+          [
+            "Bear Bachmeier",
+            2,
+            43,
+            72,
+            "59.7%",
+            435,
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "title": "Rushing",
+        "columns": [
+          "Player",
+          "GP",
+          "Carries",
+          "Yards",
+          "Avg",
+          "TD",
+          "Long"
+        ],
+        "rows": [
+          [
+            "LJ Martin",
+            2,
+            34,
+            169,
+            "5.0",
+            2,
+            33
+          ],
+          [
+            "Bear Bachmeier",
+            2,
+            24,
+            79,
+            "3.3",
+            2,
+            19
+          ],
+          [
+            "Sione Moa",
+            2,
+            7,
+            29,
+            "4.1",
+            0,
+            18
+          ],
+          [
+            "Kyler Kasper",
+            2,
+            1,
+            2,
+            "2.0",
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "title": "Receiving",
+        "columns": [
+          "Player",
+          "GP",
+          "Rec",
+          "Yards",
+          "Avg",
+          "TD",
+          "Long"
+        ],
+        "rows": [
+          [
+            "Kyler Kasper",
+            2,
+            12,
+            132,
+            "11.0",
+            0,
+            27
+          ],
+          [
+            "Tiger Bachmeier",
+            2,
+            7,
+            96,
+            "13.7",
+            1,
+            26
+          ],
+          [
+            "Walker Lyons",
+            2,
+            6,
+            75,
+            "12.5",
+            0,
+            18
+          ],
+          [
+            "Jojo Phillips",
+            2,
+            8,
+            56,
+            "7.0",
+            1,
+            15
+          ],
+          [
+            "LJ Martin",
+            2,
+            4,
+            37,
+            "9.3",
+            2,
+            31
+          ],
+          [
+            "Tei Nacua",
+            2,
+            4,
+            17,
+            "4.3",
+            0,
+            11
+          ],
+          [
+            "Roger Saleapaga II",
+            2,
+            1,
+            16,
+            "16.0",
+            0,
+            16
+          ],
+          [
+            "D. Hough",
+            2,
+            1,
+            6,
+            "6.0",
+            0,
+            6
+          ]
+        ]
+      }
+    ],
+    "utahWeek3Defense": {
+      "title": "Defense · Week 3 game only",
+      "columns": [
+        "Player",
+        "Solo",
+        "Assist",
+        "Tackles",
+        "TFL",
+        "Sacks",
+        "INT",
+        "INT yards"
+      ],
+      "rows": [
+        [
+          "Elijah Davis",
+          3,
+          4,
+          7,
+          0,
+          0,
+          1,
+          73
+        ],
+        [
+          "Jackson Bennee",
+          3,
+          3,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Johnathan Hall",
+          2,
+          4,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Elijah Reed",
+          3,
+          1,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "Creed Whittemore",
+          2,
+          2,
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          "P. Fitzgerald",
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          "Lucas Samsula",
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}

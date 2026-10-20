@@ -1,0 +1,143 @@
+{
+  "scores": [
+    {
+      "away": "FCS Southeast",
+      "home": "Miami",
+      "awayScore": 7,
+      "homeScore": 55
+    },
+    {
+      "away": "Western Kentucky",
+      "home": "Georgia",
+      "awayScore": 38,
+      "homeScore": 20
+    },
+    {
+      "away": "Tennessee",
+      "home": "Georgia Tech",
+      "awayScore": 27,
+      "homeScore": 14
+    },
+    {
+      "away": "Southern Mississippi",
+      "home": "Auburn",
+      "awayScore": 14,
+      "homeScore": 42
+    },
+    {
+      "away": "Rice",
+      "home": "Notre Dame",
+      "awayScore": 17,
+      "homeScore": 45
+    },
+    {
+      "away": "Charlotte",
+      "home": "Ole Miss",
+      "awayScore": 21,
+      "homeScore": 40
+    },
+    {
+      "away": "FCS Midwest",
+      "home": "SMU",
+      "awayScore": 12,
+      "homeScore": 35
+    },
+    {
+      "away": "Ohio State",
+      "home": "Texas",
+      "awayScore": 20,
+      "homeScore": 28
+    },
+    {
+      "away": "FCS Southeast",
+      "home": "Florida",
+      "awayScore": 31,
+      "homeScore": 49
+    },
+    {
+      "away": "FCS Midwest",
+      "home": "Houston",
+      "awayScore": 31,
+      "homeScore": 45
+    },
+    {
+      "away": "Iowa State",
+      "home": "Iowa",
+      "awayScore": 28,
+      "homeScore": 22
+    },
+    {
+      "away": "Oklahoma",
+      "home": "Michigan",
+      "awayScore": 17,
+      "homeScore": 16
+    },
+    {
+      "away": "Oregon",
+      "home": "Oklahoma State",
+      "awayScore": 48,
+      "homeScore": 24
+    },
+    {
+      "away": "Utah State",
+      "home": "Washington",
+      "awayScore": 21,
+      "homeScore": 35
+    },
+    {
+      "away": "FCS Midwest",
+      "home": "Indiana",
+      "awayScore": 24,
+      "homeScore": 31
+    },
+    {
+      "away": "Utah",
+      "home": "Boise State",
+      "awayScore": 35,
+      "homeScore": 19
+    },
+    {
+      "away": "South Carolina",
+      "home": "Memphis",
+      "awayScore": 34,
+      "homeScore": 14
+    },
+    {
+      "away": "Arizona",
+      "home": "BYU",
+      "awayScore": 13,
+      "homeScore": 35
+    },
+    {
+      "away": "Alabama",
+      "home": "Kentucky",
+      "awayScore": 31,
+      "homeScore": 13
+    },
+    {
+      "away": "FCS East",
+      "home": "Virginia",
+      "awayScore": 3,
+      "homeScore": 24
+    },
+    {
+      "away": "Louisiana Tech",
+      "home": "LSU",
+      "awayScore": 30,
+      "homeScore": 42
+    },
+    {
+      "away": "Arizona State",
+      "home": "Texas A&M",
+      "awayScore": 40,
+      "homeScore": 38
+    },
+    {
+      "away": "Texas Tech",
+      "home": "Oregon State",
+      "awayScore": 34,
+      "homeScore": 23
+    }
+  ],
+  "note": "Featured Week 2 national results. Arizona State beat Texas A&M in overtime."
+}

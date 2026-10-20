@@ -20,7 +20,8 @@
         "TCU"
       ],
       "url": "/articles/earl-mcgrath-spotlight/",
-      "summary": "Utah leads for the inventive Greensboro quarterback. Tennessee is the nearest challenger."
+      "summary": "Utah leads for the inventive Greensboro quarterback. Tennessee is the nearest challenger.",
+      "asOf": "Week 1 feature"
     },
     {
       "name": "Harvey Humphries",
@@ -41,7 +42,80 @@
         "Minnesota"
       ],
       "url": "/articles/harvey-humphries-spotlight/",
-      "summary": "Utah leads BYU for the state’s top prospect. The rivalry has reached the recruiting trail."
+      "summary": "Week 3 board still lists Utah first. The complete school order below is from the earlier feature; the new image does not display a refreshed full list.",
+      "asOf": "Week 3 interest / Week 1 school order"
+    }
+  ],
+  "lastUpdated": "Week 3",
+  "note": "Current Week 3 observations are shown separately from earlier feature reporting. No commitments are confirmed.",
+  "updates": [
+    {
+      "name": "Denzel Tiffin",
+      "pos": "WILL",
+      "nationalRank": 14,
+      "hometown": "Mountain View, CA",
+      "size": "6 ft 1 · 214 lb",
+      "archetype": "Lurker",
+      "schools": [
+        "Oregon",
+        "Notre Dame",
+        "Washington",
+        "BYU",
+        "Georgia"
+      ],
+      "summary": "BYU is fourth, has offered, and is moving up. Top 5 stage.",
+      "source": "IMG_4881.HEIC"
+    },
+    {
+      "name": "Patrick Cargile",
+      "pos": "CB",
+      "nationalRank": 18,
+      "hometown": "West Linn, OR",
+      "size": "6 ft 3 · 185 lb",
+      "archetype": "Zone",
+      "schools": [
+        "Ohio State",
+        "Washington",
+        "USC",
+        "BYU",
+        "Nebraska"
+      ],
+      "summary": "BYU is fourth with an offer and an upward indicator. Top 5 stage.",
+      "source": "IMG_4882.HEIC"
+    },
+    {
+      "name": "Moses Smith",
+      "pos": "ATH",
+      "nationalRank": 32,
+      "hometown": "Frisco, TX",
+      "size": "6 ft 1 · 205 lb",
+      "archetype": "Elusive Bruiser",
+      "schools": [
+        "Texas A&M",
+        "BYU",
+        "Alabama",
+        "Oklahoma",
+        "LSU"
+      ],
+      "summary": "BYU is second behind Texas A&M, has offered, and is moving up. Top 5 stage.",
+      "source": "IMG_4883.HEIC"
+    },
+    {
+      "name": "Devante Harris",
+      "pos": "SAM",
+      "nationalRank": 42,
+      "hometown": "Greenbrae, CA",
+      "size": "6 ft 4 · 238 lb",
+      "archetype": "Signal Caller",
+      "schools": [
+        "Utah",
+        "Illinois",
+        "Oregon",
+        "Texas",
+        "USC"
+      ],
+      "summary": "Utah leads and has offered. Top 5 stage.",
+      "source": "IMG_4885.HEIC"
     }
   ]
 }
