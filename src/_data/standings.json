@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "Week 3 · Utah final · BYU pending",
+  "lastUpdated": "Week 3 · Utah and BYU final",
   "teams": [
     {
       "name": "BYU",
       "abbr": "BYU",
       "color": "#002E5D",
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
       "confWins": 1,
       "confLosses": 0
@@ -146,9 +146,10 @@
       "confLosses": 1
     }
   ],
-  "note": "Week 3 snapshot: BYU leads at 1–0 in league play; Arizona is 0–1. Utah’s Virginia Tech result is included. BYU–Utah State and all other Week 3 games remain pending.",
+  "note": "Week 3 snapshot: BYU leads at 1–0 in league play; Arizona is 0–1. Utah and BYU’s Week 3 wins are included. Other Week 3 results remain pending.",
   "source": [
     "IMG_4865.HEIC",
-    "IMG_4866.HEIC"
+    "IMG_4866.HEIC",
+    "User-supplied BYU–Utah State recap, October 23, 2026"
   ]
 }

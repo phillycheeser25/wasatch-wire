@@ -27,4 +27,4 @@ BYU enters Week 3 at **No. 8**, Utah at **No. 13**. Both are unbeaten, but their
 
 Nationally, Texas has taken No. 1 after beating Ohio State 28–20, and Arch Manning now leads the Heisman watch. The Big 12’s marquee Week 3 matchup is **No. 15 Houston at No. 12 Texas Tech**, Friday at 8 p.m. ET.
 
-*Update: Utah’s Week 3 game is complete. [Read the 44–34 Virginia Tech recap]({{ '/articles/utah-virginia-tech-week3/' | url }}). BYU–Utah State remains pending.*
+*Update: Utah’s Week 3 game is complete. [Read the 44–34 Virginia Tech recap]({{ '/articles/utah-virginia-tech-week3/' | url }}). [BYU also won, beating Utah State 57–21]({{ '/articles/byu-utah-state-week3/' | url }}).*

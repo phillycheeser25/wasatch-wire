@@ -2,7 +2,7 @@
   "season": 1,
   "year": 2026,
   "utahThrough": "Week 3 · 3 games",
-  "byuThrough": "Week 2 · 2 games",
+  "byuThrough": "Week 3 passing · Week 2 rushing/receiving",
   "quarterbacks": [
     {
       "name": "Devon Dampier",
@@ -69,20 +69,20 @@
     {
       "name": "Bear Bachmeier",
       "team": "BYU",
-      "throughWeek": 2,
-      "games": 2,
-      "completions": 43,
-      "attempts": 72,
-      "completionPct": "59.7",
-      "passingYards": 435,
-      "passingTD": 4,
+      "throughWeek": 3,
+      "games": 3,
+      "completions": 67,
+      "attempts": 105,
+      "completionPct": "63.8",
+      "passingYards": 765,
+      "passingTD": 9,
       "interceptions": 1,
       "carries": 24,
       "rushingYards": 79,
       "rushingTD": 2,
-      "totalTD": 6,
-      "totalYards": 514,
-      "yardsPerAttempt": "6.0",
+      "totalTD": "Pending",
+      "totalYards": "Pending",
+      "yardsPerAttempt": "7.3",
       "gameLog": [
         {
           "week": 1,
@@ -111,8 +111,24 @@
           "rushingTD": 2,
           "totalTD": 3,
           "url": "/articles/byu-arizona-week2/"
+        },
+        {
+          "week": 3,
+          "opponent": "Utah State",
+          "result": "W 57–21",
+          "completions": 24,
+          "attempts": 33,
+          "passingYards": 330,
+          "passingTD": 5,
+          "interceptions": 0,
+          "rushingYards": "Pending",
+          "rushingTD": "Pending",
+          "totalTD": "Pending",
+          "url": "/articles/byu-utah-state-week3/"
         }
-      ]
+      ],
+      "rushingThroughWeek": 2,
+      "note": "Passing includes Week 3. Rushing remains through Week 2; full combined totals await the remaining Week 3 player statistics."
     }
   ],
   "utahTables": [
@@ -515,7 +531,7 @@
   ],
   "byuTables": [
     {
-      "title": "Passing",
+      "title": "Passing · through Week 3",
       "columns": [
         "Player",
         "GP",
@@ -529,18 +545,18 @@
       "rows": [
         [
           "Bear Bachmeier",
-          2,
-          43,
-          72,
-          "59.7%",
-          435,
-          4,
+          3,
+          67,
+          105,
+          "63.8%",
+          765,
+          9,
           1
         ]
       ]
     },
     {
-      "title": "Rushing",
+      "title": "Rushing · through Week 2",
       "columns": [
         "Player",
         "GP",
@@ -590,7 +606,7 @@
       ]
     },
     {
-      "title": "Receiving",
+      "title": "Receiving · through Week 2",
       "columns": [
         "Player",
         "GP",

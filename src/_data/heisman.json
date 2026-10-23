@@ -1,7 +1,7 @@
 {
   "lastUpdated": "Week 3",
   "label": "Heisman Watch",
-  "note": "Current Week 3 national order. Local radar is editorial; Utah totals include Week 3 and BYU totals stop after Week 2.",
+  "note": "Current Week 3 national order, unchanged pending the next update. Utah totals include Week 3; BYU passing includes Week 3, while individual rushing and receiving remain through Week 2.",
   "source": "IMG_4861.HEIC–IMG_4864.HEIC",
   "national": [
     {
@@ -43,16 +43,16 @@
       "team": "BYU",
       "pos": "RB",
       "line": "169 rush yds · 2 rush TD · 2 receiving TD",
-      "note": "109 rushing yards and two late scores against Arizona.",
+      "note": "Through Week 2: 109 rushing yards and two late scores against Arizona. Week 3 individual totals pending.",
       "url": "/articles/byu-arizona-week2/"
     },
     {
       "name": "Bear Bachmeier",
       "team": "BYU",
       "pos": "QB",
-      "line": "435 pass yds · 79 rush yds · 6 total TD",
-      "note": "Through Week 2: four passing touchdowns and two rushing scores.",
-      "url": "/articles/byu-arizona-week2/"
+      "line": "765 pass yds · 9 pass TD · 1 INT",
+      "note": "Through Week 3: 330 yards and five touchdown passes against Utah State.",
+      "url": "/articles/byu-utah-state-week3/"
     },
     {
       "name": "Devon Dampier",

@@ -1,0 +1,79 @@
+{
+  "source": "User-provided narrative, October 23, 2026",
+  "game": {
+    "id": "s1-w3-byu-utah-state",
+    "season": 1,
+    "week": 3,
+    "date": "2026-09-19",
+    "home": "BYU",
+    "away": "Utah State",
+    "homeScore": 57,
+    "awayScore": 21,
+    "homeQuarters": [
+      21,
+      13,
+      13,
+      10
+    ],
+    "awayQuarters": [
+      7,
+      14,
+      0,
+      0
+    ],
+    "status": "Final",
+    "homeRank": 8,
+    "location": "LaVell Edwards Stadium",
+    "article": "/articles/byu-utah-state-week3/",
+    "passing": [
+      {
+        "team": "BYU",
+        "name": "Bear Bachmeier",
+        "completions": 24,
+        "attempts": 33,
+        "yards": 330,
+        "touchdowns": 5,
+        "interceptions": 0
+      }
+    ],
+    "teamStats": {
+      "BYU": {
+        "firstDowns": 18,
+        "totalYards": 543,
+        "plays": 70,
+        "rushingYards": 213,
+        "passingYards": 330,
+        "rushes": 37,
+        "rushingTD": 2
+      },
+      "Utah State": {
+        "firstDowns": 13,
+        "totalYards": 307,
+        "plays": 77
+      }
+    },
+    "leaders": [
+      {
+        "value": "330",
+        "label": "Bachmeier passing yards"
+      },
+      {
+        "value": "5",
+        "label": "Bachmeier passing TD"
+      },
+      {
+        "value": "543",
+        "label": "BYU total offense"
+      },
+      {
+        "value": "213",
+        "label": "BYU rushing yards"
+      }
+    ]
+  },
+  "limitations": [
+    "Full individual rushing, receiving, defense and scoring details pending.",
+    "Narrative calls Utah State 1–2; prior schedule shows 1–2 entering game, so no postgame Aggies record is asserted.",
+    "No later poll or other conference results supplied."
+  ]
+}
